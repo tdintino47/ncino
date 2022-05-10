@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Enter a description of this strategy. --></help>
+        <label><!-- Description --></label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the date on which this pricing strategy becomes inactive. --></help>
+        <label><!-- End Date --></label>
+        <name>LLC_BI__End_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the date on which this pricing strategy becomes active. If an active strategy exists for the selected products, you must use the end date of the active strategy. --></help>
+        <label><!-- Start Date --></label>
+        <name>LLC_BI__Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select the type of strategy you wish to create. --></help>
+        <label><!-- Strategy Type --></label>
+        <name>LLC_BI__Strategy_Type__c</name>
+        <picklistValues>
+            <masterLabel>Affordability</masterLabel>
+            <translation><!-- Affordability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing</masterLabel>
+            <translation><!-- Pricing --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

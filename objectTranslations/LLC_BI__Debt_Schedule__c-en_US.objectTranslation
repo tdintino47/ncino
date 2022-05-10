@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Credit Pull Date --></label>
+        <name>LLC_BI__Credit_Pull_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Debt Schedule Date --></label>
+        <name>LLC_BI__Debt_Schedule_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Debt Schedule Description --></label>
+        <name>LLC_BI__Debt_Schedule_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Updated --></label>
+        <name>LLC_BI__Last_Updated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monthly Current Debt Total --></label>
+        <name>LLC_BI__Monthly_Current_Debt_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monthly Proposed Debt Total --></label>
+        <name>LLC_BI__Monthly_Proposed_Debt_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relationship --></label>
+        <name>LLC_BI__Relationship__c</name>
+        <relationshipLabel><!-- Debt Schedules --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Total Monthly Payment --></label>
+        <name>LLC_BI__Total_Monthly_Payment__c</name>
+    </fields>
+    <fields>
+        <label><!-- lookupKey --></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+</CustomObjectTranslation>

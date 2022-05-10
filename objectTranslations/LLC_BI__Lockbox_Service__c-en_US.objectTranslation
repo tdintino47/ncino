@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Treasury Service Reference --></label>
+        <name>LLC_BI__Treasury_Service_Reference__c</name>
+        <relationshipLabel><!-- Lockbox Service --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lockbox Type --></label>
+        <name>LLC_BI__Type__c</name>
+        <picklistValues>
+            <masterLabel>Retail</masterLabel>
+            <translation><!-- Retail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wholesale</masterLabel>
+            <translation><!-- Wholesale --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Vendor Selection --></label>
+        <name>LLC_BI__Vendor_Selection__c</name>
+        <picklistValues>
+            <masterLabel>FIS</masterLabel>
+            <translation><!-- FIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regulus</masterLabel>
+            <translation><!-- Regulus --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

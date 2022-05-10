@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Add New Fields --></label>
+        <name>NDOC__Add_New_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Add New Fields --></label>
+        <name>NDOC__DocMan_Add_New_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Collateral DocMan Columns --></label>
+        <name>NDOC__DocMan_Collateral_Columns</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Deposit DocMan Columns --></label>
+        <name>NDOC__DocMan_Deposit_Columns</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- DocMan Fields --></label>
+        <name>NDOC__DocMan_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Generic DocMan Columns --></label>
+        <name>NDOC__DocMan_Generic_Columns</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product Package DocMan Columns --></label>
+        <name>NDOC__DocMan_Product_Package_Columns</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Treasury DocMan Columns --></label>
+        <name>NDOC__DocMan_Treasury_Columns</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Document Placeholder Bulk Update Fields --></label>
+        <name>NDOC__Document_Placeholder_Bulk_Update_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Document Placeholder Bulk Update Summary --></label>
+        <name>NDOC__Document_Placeholder_Bulk_Update_Summary</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- TEST_DOC_PLACEHOLDER_ADDITIONAL_FIELDS --></label>
+        <name>NDOC__TEST_DOC_PLACEHOLDER_ADDITIONAL_FIELDS</name>
+    </fieldSets>
+    <fields>
+        <label><!-- approvalDate --></label>
+        <name>LLC_BI__Approval_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Roles --></label>
+        <name>LLC_BI__Approval_Roles__c</name>
+    </fields>
+    <fields>
+        <label><!-- approvedBy --></label>
+        <name>LLC_BI__Approved_By__c</name>
+        <relationshipLabel><!-- Document Placeholders (approvedBy) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Auto E-Sign --></label>
+        <name>LLC_BI__Auto_Esign__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closing Checklist --></label>
+        <name>LLC_BI__Closing_Checklist__c</name>
+        <relationshipLabel><!-- Document Placeholders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Content Management Key --></label>
+        <name>LLC_BI__Content_Management_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>LLC_BI__Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- DocClass --></label>
+        <name>LLC_BI__DocClass__c</name>
+        <relationshipLabel><!-- Document Placeholders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- DocManager --></label>
+        <name>LLC_BI__DocManager__c</name>
+        <relationshipLabel><!-- Document Placeholders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- DocTab --></label>
+        <name>LLC_BI__DocTab__c</name>
+        <relationshipLabel><!-- Document Placeholders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>LLC_BI__DocType__c</name>
+        <relationshipLabel><!-- Document Placeholders --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This system-populated field displays a document’s source. --></help>
+        <label><!-- Document Source --></label>
+        <name>LLC_BI__Document_Source__c</name>
+        <picklistValues>
+            <masterLabel>Doc Prep</masterLabel>
+            <translation><!-- Doc Prep --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Document Store Index --></label>
+        <name>LLC_BI__Document_Store_Index__c</name>
+        <relationshipLabel><!-- Document Placeholders --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Field should be marked to true if a compatible file should be downloaded as a PDF. --></help>
+        <label><!-- Download As PDF --></label>
+        <name>LLC_BI__Download_As_PDF__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select this field to flag the e-vault placeholder as to-send. --></help>
+        <label><!-- E-Vault Placeholder --></label>
+        <name>LLC_BI__E_Vault__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exception Date --></label>
+        <name>LLC_BI__Exception_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>LLC_BI__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has File --></label>
+        <name>LLC_BI__Has_File__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Imported --></label>
+        <name>LLC_BI__Is_Imported__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Staged --></label>
+        <name>LLC_BI__Is_Staged__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Trash --></label>
+        <name>LLC_BI__Is_Trash__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Group --></label>
+        <name>LLC_BI__Owner__c</name>
+        <picklistValues>
+            <masterLabel>Admin</masterLabel>
+            <translation><!-- Admin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attorney</masterLabel>
+            <translation><!-- Attorney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closer</masterLabel>
+            <translation><!-- Closer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compliance</masterLabel>
+            <translation><!-- Compliance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation><!-- Construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal</masterLabel>
+            <translation><!-- Legal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lender</masterLabel>
+            <translation><!-- Lender --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lender/Admin</masterLabel>
+            <translation><!-- Lender/Admin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Ops</masterLabel>
+            <translation><!-- Loan Ops --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processor</masterLabel>
+            <translation><!-- Processor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicing</masterLabel>
+            <translation><!-- Servicing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Assets</masterLabel>
+            <translation><!-- Special Assets --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Placeholder Viewer Groups --></label>
+        <name>LLC_BI__Placeholder_Viewer_Groups__c</name>
+    </fields>
+    <fields>
+        <label><!-- Placeholder Viewer Profiles --></label>
+        <name>LLC_BI__Placeholder_Viewer_Profiles__c</name>
+    </fields>
+    <fields>
+        <label><!-- Portal Doc Description --></label>
+        <name>LLC_BI__Portal_Doc_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Portal Doc Name --></label>
+        <name>LLC_BI__Portal_Doc_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Portal Enabled --></label>
+        <name>LLC_BI__Portal_Enabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Portal Rejection Date --></label>
+        <name>LLC_BI__Portal_Rejection_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Portal Rejection Reason --></label>
+        <name>LLC_BI__Portal_Rejection_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Incomplete</masterLabel>
+            <translation><!-- Incomplete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing Signature</masterLabel>
+            <translation><!-- Missing Signature --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out of Date</masterLabel>
+            <translation><!-- Out of Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unreadable</masterLabel>
+            <translation><!-- Unreadable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wrong File</masterLabel>
+            <translation><!-- Wrong File --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Portal Upload Date --></label>
+        <name>LLC_BI__Portal_Upload_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Portal Uploaded By --></label>
+        <name>LLC_BI__Portal_Uploaded_By__c</name>
+        <relationshipLabel><!-- Document Placeholders (Portal Uploaded By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>LLC_BI__Priority__c</name>
+        <picklistValues>
+            <masterLabel>Critical</masterLabel>
+            <translation><!-- Critical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Requirement --></label>
+        <name>LLC_BI__Requirement__c</name>
+        <relationshipLabel><!-- Document Placeholders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Review Date --></label>
+        <name>LLC_BI__Review_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Review Status --></label>
+        <name>LLC_BI__Review_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Review</masterLabel>
+            <translation><!-- Awaiting Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exception</masterLabel>
+            <translation><!-- Exception --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-File</masterLabel>
+            <translation><!-- In-File --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reviewed</masterLabel>
+            <translation><!-- Reviewed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reviewed By --></label>
+        <name>LLC_BI__Reviewed_By__c</name>
+        <relationshipLabel><!-- Document Placeholders (Reviewed By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sort --></label>
+        <name>LLC_BI__Sort_Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trashed Date --></label>
+        <name>LLC_BI__Trashed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Viewer Roles --></label>
+        <name>LLC_BI__Viewer_Roles__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year --></label>
+        <name>LLC_BI__Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- lookupKey --></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legal Entity --></label>
+        <name>NDOC__Account__c</name>
+        <relationshipLabel><!-- Document Placeholders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Current Attachment Id --></label>
+        <name>NDOC__Attachment_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Facilitate reporting on Collateral objects tied to Document_Placeholder --></help>
+        <label><!-- Collateral Mgmt --></label>
+        <name>NDOC__Collateral_Mgmt__c</name>
+        <relationshipLabel><!-- Document Placeholders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Collateral Ownership --></label>
+        <name>NDOC__Collateral_Ownership__c</name>
+        <relationshipLabel><!-- Document Placeholders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- comments --></label>
+        <name>NDOC__Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created_By_Closing_Checklist_Id --></label>
+        <name>NDOC__Created_By_Closing_Checklist_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Facilitate reporting on Deposit objects tied to Document_Placeholder --></help>
+        <label><!-- Deposit_Account_Reporting_Helper --></label>
+        <name>NDOC__Deposit__c</name>
+        <relationshipLabel><!-- Document Placeholders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- File Name --></label>
+        <name>NDOC__File_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- fileSize --></label>
+        <name>NDOC__File_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- HasBeenWaived --></label>
+        <name>NDOC__HasBeenWaived__c</name>
+    </fields>
+    <fields>
+        <label><!-- helpText --></label>
+        <name>NDOC__Help_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- mimeType --></label>
+        <name>NDOC__Mime_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- ownerObjectId --></label>
+        <name>NDOC__Owner_Object_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Semicolon delimited list of roles that are allowed to approve the document. If left blank all roles can approve the document. --></help>
+        <label><!-- Placeholder Approval Roles --></label>
+        <name>NDOC__Placeholder_Approval_Roles__c</name>
+    </fields>
+    <fields>
+        <label><!-- Placeholder Viewer Roles --></label>
+        <name>NDOC__Placeholder_Viewer_Roles__c</name>
+    </fields>
+    <fields>
+        <label><!-- Portal Rejection Comment --></label>
+        <name>NDOC__Portal_Rejection_Comment__c</name>
+        <picklistValues>
+            <masterLabel>The document you provided is incomplete. Please fill out the document completely and upload again.</masterLabel>
+            <translation><!-- The document you provided is incomplete. Please fill out the document completely and upload again. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The document you provided is missing a required signature. Please sign this document and upload again.</masterLabel>
+            <translation><!-- The document you provided is missing a required signature. Please sign this document and upload again. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The document you provided is out of date. Please provide a current version of the document.</masterLabel>
+            <translation><!-- The document you provided is out of date. Please provide a current version of the document. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The document you uploaded cannot be read. Please upload a legible document.</masterLabel>
+            <translation><!-- The document you uploaded cannot be read. Please upload a legible document. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>You did not provide the requested document. Please upload the correct document and submit again.</masterLabel>
+            <translation><!-- You did not provide the requested document. Please upload the correct document and submit again. --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Facilitate Treasury Service reporting on Document_Placeholder objects --></help>
+        <label><!-- Treasury_Service_Reporting_Helper --></label>
+        <name>NDOC__Treasury_Service__c</name>
+        <relationshipLabel><!-- Document Placeholders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- version --></label>
+        <name>NDOC__version__c</name>
+    </fields>
+</CustomObjectTranslation>

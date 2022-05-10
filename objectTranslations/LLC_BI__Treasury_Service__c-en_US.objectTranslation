@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Product Package Treasury Services FS --></label>
+        <name>LLC_BI__Product_Package_Treasury_Services_FS</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Service Details --></label>
+        <name>LLC_BI__Service_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Treasury Services Summary UI --></label>
+        <name>LLC_BI__Treasury_Services_Summary_UI</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Exception Pricing --></label>
+        <name>LLC_BI__UI_Exception_Pricing</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for ACH --></label>
+        <name>LLC_BI__UI_Order_Entry_for_ACH</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Cash --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Cash</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Depository --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Depository</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Direct File Transfer --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Direct_File_Transfer</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Disbursement --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Disbursement</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Loan Module --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Loan_Module</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Lockbox --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Lockbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Miscellaneous --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Miscellaneous</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Multi Factor Auth --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Multi_Factor_Auth</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Online ACH --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Online_ACH</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Online Banking --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Online_Banking</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Online Bill Pay --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Online_Bill_Pay</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for RDC --></label>
+        <name>LLC_BI__UI_Order_Entry_for_RDC</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Reconciliation --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Reconciliation</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Reporting --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Reporting</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Sweep --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Sweep</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Wire --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Wire</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Zero Balance --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Zero_Balance</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Product Summary --></label>
+        <name>LLC_BI__UI_Product_Summary</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for ACH --></label>
+        <name>LLC_BI__UI_Setup_for_ACH</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for Cash --></label>
+        <name>LLC_BI__UI_Setup_for_Cash</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for Depository --></label>
+        <name>LLC_BI__UI_Setup_for_Depository</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for Direct File Tansfer --></label>
+        <name>LLC_BI__UI_Setup_for_Direct_File_Tansfer</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for Disbursement --></label>
+        <name>LLC_BI__UI_Setup_for_Disbursement</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for Lockbox --></label>
+        <name>LLC_BI__UI_Setup_for_Lockbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for Miscellaneous --></label>
+        <name>LLC_BI__UI_Setup_for_Miscellaneous</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for Online ACH --></label>
+        <name>LLC_BI__UI_Setup_for_Online_ACH</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for Online Banking --></label>
+        <name>LLC_BI__UI_Setup_for_Online_Banking</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for Online Bill Pay --></label>
+        <name>LLC_BI__UI_Setup_for_Online_Bill_Pay</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for RDC --></label>
+        <name>LLC_BI__UI_Setup_for_RDC</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for Reconciliation --></label>
+        <name>LLC_BI__UI_Setup_for_Reconciliation</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for Reporting --></label>
+        <name>LLC_BI__UI_Setup_for_Reporting</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for Sweep --></label>
+        <name>LLC_BI__UI_Setup_for_Sweep</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for Wire --></label>
+        <name>LLC_BI__UI_Setup_for_Wire</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for Zero Balance --></label>
+        <name>LLC_BI__UI_Setup_for_Zero_Balance</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry Remote Deposit --></label>
+        <name>UI_Order_Entry_Remote_Deposit</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry Retail Lockbox --></label>
+        <name>UI_Order_Entry_Retail_Lockbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry Wire Transfer --></label>
+        <name>UI_Order_Entry_Wire_Transfer</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Portal_UI_Test --></label>
+        <name>nPortal__Portal_UI_Test</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Account ID --></label>
+        <name>LLC_BI__Account_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use this lookup field to associate an application record to this treasury service record. --></help>
+        <label><!-- Application --></label>
+        <name>LLC_BI__Application__c</name>
+        <relationshipLabel><!-- Treasury Service --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Automated Clearing House Service --></label>
+        <name>LLC_BI__Automated_Clearing_House_Service__c</name>
+        <relationshipLabel><!-- Treasury Service --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Branch --></label>
+        <name>LLC_BI__Branch__c</name>
+        <relationshipLabel><!-- Treasury Service --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Card Number --></label>
+        <name>LLC_BI__Card_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cash Service --></label>
+        <name>LLC_BI__Cash_Service__c</name>
+        <relationshipLabel><!-- Treasury Service --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Commercial Officer --></label>
+        <name>LLC_BI__Commercial_Officer__c</name>
+        <relationshipLabel><!-- Treasury Service (Commercial Officer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This field contains the Id of the object from which the treasury service was converted --></help>
+        <label><!-- Conversion Object --></label>
+        <name>LLC_BI__Conversion_Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Memo --></label>
+        <name>LLC_BI__Credit_Memo__c</name>
+        <relationshipLabel><!-- Treasury Service --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This field determines the default page within the nCino User Interface for this record. --></help>
+        <label><!-- Application --></label>
+        <name>LLC_BI__Default_App__c</name>
+    </fields>
+    <fields>
+        <label><!-- Depository Service --></label>
+        <name>LLC_BI__Depository_Service__c</name>
+        <relationshipLabel><!-- Treasury Service --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Disbursement Service --></label>
+        <name>LLC_BI__Disbursement_Service__c</name>
+        <relationshipLabel><!-- Treasury Service --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Earliest date for the setup of products . --></help>
+        <label><!-- Effective Date --></label>
+        <name>LLC_BI__Effective_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- The first month that the customer should be billed for their Treasury Management Services. --></help>
+        <label><!-- First Billing Month --></label>
+        <name>LLC_BI__First_Billing_Month__c</name>
+        <picklistValues>
+            <masterLabel>April</masterLabel>
+            <translation><!-- April --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>August</masterLabel>
+            <translation><!-- August --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>December</masterLabel>
+            <translation><!-- December --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>February</masterLabel>
+            <translation><!-- February --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>January</masterLabel>
+            <translation><!-- January --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>July</masterLabel>
+            <translation><!-- July --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>June</masterLabel>
+            <translation><!-- June --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>March</masterLabel>
+            <translation><!-- March --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>May</masterLabel>
+            <translation><!-- May --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>November</masterLabel>
+            <translation><!-- November --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>October</masterLabel>
+            <translation><!-- October --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>September</masterLabel>
+            <translation><!-- September --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Implementation Instructions --></label>
+        <name>LLC_BI__Implementation_Instructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is ATM Card --></label>
+        <name>LLC_BI__Is_ATM_Card__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Active --></label>
+        <name>LLC_BI__Is_Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lockbox Service --></label>
+        <name>LLC_BI__Lockbox_Service__c</name>
+        <relationshipLabel><!-- Treasury Service --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Maintenance App --></label>
+        <name>LLC_BI__Maintenance_App__c</name>
+    </fields>
+    <fields>
+        <label><!-- Miscellaneous Service --></label>
+        <name>LLC_BI__Miscellaneous_Service__c</name>
+        <relationshipLabel><!-- Treasury Service --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Online Banking Service --></label>
+        <name>LLC_BI__Online_Banking_Service__c</name>
+        <relationshipLabel><!-- Treasury Service --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Overdraft Consent --></label>
+        <name>LLC_BI__Overdraft_Consent__c</name>
+        <picklistValues>
+            <masterLabel>Refuse overdraft service</masterLabel>
+            <translation><!-- Refuse overdraft service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request overdraft service</masterLabel>
+            <translation><!-- Request overdraft service --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter the primary name that displays on the debit card. --></help>
+        <label><!-- Primary Emboss Name --></label>
+        <name>LLC_BI__Primary_Emboss_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Package --></label>
+        <name>LLC_BI__Product_Package__c</name>
+        <relationshipLabel><!-- Treasury Services --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>LLC_BI__Product_Reference__c</name>
+        <relationshipLabel><!-- Treasury Service --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reason for Suspend/Cancel --></label>
+        <name>LLC_BI__Reason_for_Suspend_Cancel__c</name>
+        <picklistValues>
+            <masterLabel>Client Resource Availability</masterLabel>
+            <translation><!-- Client Resource Availability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Technical Requirements</masterLabel>
+            <translation><!-- Client Technical Requirements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Current Provider Delay</masterLabel>
+            <translation><!-- Current Provider Delay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service No Longer Needed</masterLabel>
+            <translation><!-- Service No Longer Needed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor Delay</masterLabel>
+            <translation><!-- Vendor Delay --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reconciliation Service --></label>
+        <name>LLC_BI__Reconciliation_Service__c</name>
+        <relationshipLabel><!-- Treasury Service --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Relationship --></label>
+        <name>LLC_BI__Relationship__c</name>
+        <relationshipLabel><!-- Treasury Service --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Remote Deposit Capture Service --></label>
+        <name>LLC_BI__Remote_Deposit_Capture_Service__c</name>
+        <relationshipLabel><!-- Treasury Service --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reporting Service --></label>
+        <name>LLC_BI__Reporting_Service__c</name>
+        <relationshipLabel><!-- Treasury Service --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Scenario --></label>
+        <name>LLC_BI__Scenario__c</name>
+        <relationshipLabel><!-- Treasury Service --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Enter the secondary name that displays on the debit card. --></help>
+        <label><!-- Secondary Emboss Name --></label>
+        <name>LLC_BI__Secondary_Emboss_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stage --></label>
+        <name>LLC_BI__Stage__c</name>
+        <picklistValues>
+            <masterLabel>Implementation</masterLabel>
+            <translation><!-- Implementation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order Entry</masterLabel>
+            <translation><!-- Order Entry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Setup</masterLabel>
+            <translation><!-- Setup --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation><!-- Expired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sweep Service --></label>
+        <name>LLC_BI__Sweep_Service__c</name>
+        <relationshipLabel><!-- Treasury Service --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- TM Officer --></label>
+        <name>LLC_BI__TM_Officer__c</name>
+        <relationshipLabel><!-- Treasury Service (TM Officer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Wire Service --></label>
+        <name>LLC_BI__Wire_Service__c</name>
+        <relationshipLabel><!-- Treasury Service --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Zero Balance Account Service --></label>
+        <name>LLC_BI__Zero_Balance_Account_Service__c</name>
+        <relationshipLabel><!-- Treasury Service --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Treasury Service Number --></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <webLinks>
+        <label><!-- Credit_Memo --></label>
+        <name>LLC_BI__Credit_Memo</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Form_Generation --></label>
+        <name>LLC_BI__Form_Generation</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Actions --></label>
+        <name>LLC_BI__Mass_Actions</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Add_Analyzed_Accounts --></label>
+        <name>LLC_BI__Mass_Add_Analyzed_Accounts</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Add_Authorized_Users --></label>
+        <name>LLC_BI__Mass_Add_Authorized_Users</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Order_Entry --></label>
+        <name>LLC_BI__Order_Entry</name>
+    </webLinks>
+</CustomObjectTranslation>

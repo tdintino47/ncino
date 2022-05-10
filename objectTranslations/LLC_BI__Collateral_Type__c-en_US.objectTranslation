@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active --></label>
+        <name>LLC_BI__Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- The percentage of the value of a collateral that a lender is willing to extend for a loan. --></help>
+        <label><!-- Advance Rate --></label>
+        <name>LLC_BI__Advance_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>LLC_BI__Category__c</name>
+    </fields>
+    <fields>
+        <help><!-- The code for a piece of Collateral. --></help>
+        <label><!-- Collateral Code --></label>
+        <name>LLC_BI__Collateral_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- Complex Collateral configuration and control data --></help>
+        <label><!-- Collateral Configuration --></label>
+        <name>LLC_BI__Collateral_Configuration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condo/PUD --></label>
+        <name>LLC_BI__Condo_PUD__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date that this type of collateral is no longer valid. --></help>
+        <label><!-- Expire Date --></label>
+        <name>LLC_BI__Expire_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Determines the field set that is used for this Collateral Type on the Manage Collateral Page --></help>
+        <label><!-- Field Set --></label>
+        <name>LLC_BI__Field_Set__c</name>
+    </fields>
+    <fields>
+        <help><!-- If the collateral type and subtype pairing is a group, select the type of group. --></help>
+        <label><!-- Group Type --></label>
+        <name>LLC_BI__Group_Type__c</name>
+        <picklistValues>
+            <masterLabel>Single Relationship</masterLabel>
+            <translation><!-- Single Relationship --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation><!-- Standard --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Highest Type --></label>
+        <name>LLC_BI__Highest_Type__c</name>
+        <relationshipLabel><!-- Collateral Types (Highest Type) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Please enter a hexadecimal color. --></help>
+        <label><!-- Icon Background Color --></label>
+        <name>LLC_BI__Icon_Background_Color__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please enter a hexadecimal color. --></help>
+        <label><!-- Icon Color --></label>
+        <name>LLC_BI__Icon_Color__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please enter the icon folder name then a &quot;/&quot; followed by the icon name. Example &quot;standard/client&quot; --></help>
+        <label><!-- Icon Type --></label>
+        <name>LLC_BI__Icon_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Complex --></label>
+        <name>LLC_BI__Is_Complex__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use this optional field to define the screen that displays when users add or edit an asset on a lease. If a screen is not defined, the LLC_BI_Screen_c screen will be used by default. --></help>
+        <label><!-- Leasing Screen --></label>
+        <name>LLC_BI__Leasing_Screen__c</name>
+        <relationshipLabel><!-- Leasing Screen --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This is a checkbox to be marked if this piece of collateral is a manufactured home. --></help>
+        <label><!-- Manufactured Home --></label>
+        <name>LLC_BI__Manufactured_Home__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Type --></label>
+        <name>LLC_BI__Parent_Type__c</name>
+        <relationshipLabel><!-- Collateral Types --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Regulatory Advance Rate, typically used for real estate. An advance rate above this will require specific reporting. --></help>
+        <label><!-- Regulatory Rate --></label>
+        <name>LLC_BI__Regulatory_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Screen --></label>
+        <name>LLC_BI__Screen__c</name>
+        <relationshipLabel><!-- Collateral Types --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>LLC_BI__Start_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- The subtype of a piece of Collateral. --></help>
+        <label><!-- Subtype --></label>
+        <name>LLC_BI__Subtype__c</name>
+        <picklistValues>
+            <masterLabel>1-4 Family</masterLabel>
+            <translation><!-- 1-4 Family --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accounts</masterLabel>
+            <translation><!-- Accounts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aircraft</masterLabel>
+            <translation><!-- Aircraft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chattel Paper</masterLabel>
+            <translation><!-- Chattel Paper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation><!-- Construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Goods</masterLabel>
+            <translation><!-- Consumer Goods --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crops</masterLabel>
+            <translation><!-- Crops --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment</masterLabel>
+            <translation><!-- Equipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Farm Equipment</masterLabel>
+            <translation><!-- Farm Equipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Farm Land</masterLabel>
+            <translation><!-- Farm Land --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Farm Products</masterLabel>
+            <translation><!-- Farm Products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixtures</masterLabel>
+            <translation><!-- Fixtures --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Intangibles</masterLabel>
+            <translation><!-- General Intangibles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government Contracts</masterLabel>
+            <translation><!-- Government Contracts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inventory</masterLabel>
+            <translation><!-- Inventory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Land</masterLabel>
+            <translation><!-- Land --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letter of Credit</masterLabel>
+            <translation><!-- Letter of Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Life Insurance</masterLabel>
+            <translation><!-- Life Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Livestock</masterLabel>
+            <translation><!-- Livestock --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lot</masterLabel>
+            <translation><!-- Lot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minerals, Oil and Gas</masterLabel>
+            <translation><!-- Minerals, Oil and Gas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile Home</masterLabel>
+            <translation><!-- Mobile Home --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motor Vehicle</masterLabel>
+            <translation><!-- Motor Vehicle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi-Family</masterLabel>
+            <translation><!-- Multi-Family --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Note/Instrument</masterLabel>
+            <translation><!-- Note/Instrument --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office</masterLabel>
+            <translation><!-- Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Possessory</masterLabel>
+            <translation><!-- Other Possessory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other RE</masterLabel>
+            <translation><!-- Other RE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Titled</masterLabel>
+            <translation><!-- Other Titled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pleasure Boat</masterLabel>
+            <translation><!-- Pleasure Boat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receipts/Bills</masterLabel>
+            <translation><!-- Receipts/Bills --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail</masterLabel>
+            <translation><!-- Retail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Savings/CD&apos;s</masterLabel>
+            <translation><!-- Savings/CD&apos;s --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Securities</masterLabel>
+            <translation><!-- Securities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standing Timber</masterLabel>
+            <translation><!-- Standing Timber --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tort Claim</masterLabel>
+            <translation><!-- Tort Claim --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trailer</masterLabel>
+            <translation><!-- Trailer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vessel</masterLabel>
+            <translation><!-- Vessel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warehouse</masterLabel>
+            <translation><!-- Warehouse --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The type of Collateral. --></help>
+        <label><!-- Type --></label>
+        <name>LLC_BI__Type__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Possessory</masterLabel>
+            <translation><!-- Possessory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate</masterLabel>
+            <translation><!-- Real Estate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Titled</masterLabel>
+            <translation><!-- Titled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UCC</masterLabel>
+            <translation><!-- UCC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The potential sources of collateral valuation --></help>
+        <label><!-- Valuation Source --></label>
+        <name>LLC_BI__Valuation_Source__c</name>
+        <picklistValues>
+            <masterLabel>Account Balance / Statement</masterLabel>
+            <translation><!-- Account Balance / Statement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Appraisal</masterLabel>
+            <translation><!-- Appraisal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Officer</masterLabel>
+            <translation><!-- Credit Officer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Statement</masterLabel>
+            <translation><!-- Financial Statement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance Agent</masterLabel>
+            <translation><!-- Insurance Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Valuation</masterLabel>
+            <translation><!-- Internal Valuation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inventory Report</masterLabel>
+            <translation><!-- Inventory Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice / Bill of Sale</masterLabel>
+            <translation><!-- Invoice / Bill of Sale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate Abundance of Caution</masterLabel>
+            <translation><!-- Real Estate Abundance of Caution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate Evaluation</masterLabel>
+            <translation><!-- Real Estate Evaluation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate Restricted Appraisal</masterLabel>
+            <translation><!-- Real Estate Restricted Appraisal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receivables Aging</masterLabel>
+            <translation><!-- Receivables Aging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Third Party Source</masterLabel>
+            <translation><!-- Third Party Source --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valuation Service Vendor</masterLabel>
+            <translation><!-- Valuation Service Vendor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The potential types of collateral valuation --></help>
+        <label><!-- Valuation Type --></label>
+        <name>LLC_BI__Valuation_Type__c</name>
+        <picklistValues>
+            <masterLabel>Actual Cash Value</masterLabel>
+            <translation><!-- Actual Cash Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>As Complete Value</masterLabel>
+            <translation><!-- As Complete Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>As Is Value</masterLabel>
+            <translation><!-- As Is Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>As Stabilized Value</masterLabel>
+            <translation><!-- As Stabilized Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Balance Sheet</masterLabel>
+            <translation><!-- Balance Sheet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Book Value</masterLabel>
+            <translation><!-- Book Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Balance</masterLabel>
+            <translation><!-- Cash Balance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contents Value</masterLabel>
+            <translation><!-- Contents Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fair Market Value - Equipment / Transportation</masterLabel>
+            <translation><!-- Fair Market Value - Equipment / Transportation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fair Market Value - Real Estate</masterLabel>
+            <translation><!-- Fair Market Value - Real Estate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net Orderly Liquidation Value</masterLabel>
+            <translation><!-- Net Orderly Liquidation Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Orderly Liquidation Value</masterLabel>
+            <translation><!-- Orderly Liquidation Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preliminary Value</masterLabel>
+            <translation><!-- Preliminary Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase Price</masterLabel>
+            <translation><!-- Purchase Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Replacement Cost Value</masterLabel>
+            <translation><!-- Replacement Cost Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waived Value</masterLabel>
+            <translation><!-- Waived Value --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- lookupKey --></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <help><!-- For an image hosted online, use the image URL. Alternately, upload an image to Documents, make image visibility public, and populate the field with the image URL. --></help>
+        <label><!-- OA Collateral Image --></label>
+        <name>nPortal__OA_Collateral_Image__c</name>
+    </fields>
+    <fields>
+        <label><!-- OA Collateral Name --></label>
+        <name>nPortal__OA_Collateral_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- OA Collateral Type Display Field Set --></label>
+        <name>nPortal__OA_Collateral_Type_Display_Field_Set__c</name>
+    </fields>
+    <fields>
+        <label><!-- OA Collateral Type Screen --></label>
+        <name>nPortal__OA_Collateral_Type_Screen__c</name>
+        <relationshipLabel><!-- OA Collateral Type Screens --></relationshipLabel>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Please enter an advance rate for the collateral type. --></errorMessage>
+        <name>LLC_BI__Advance_Rate_should_not_be_null</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- CreateCollateralTypeScreen --></label>
+        <name>LLC_BI__CreateCollateralTypeScreen</name>
+    </webLinks>
+</CustomObjectTranslation>

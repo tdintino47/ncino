@@ -1,0 +1,3410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Credit Memo Standard Loan --></label>
+        <name>Credit_Memo_Standard_Loan</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Credit Memo Standard Loan --></label>
+        <name>Credit_Memo_Standard_Loan_Exp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Credit Memo Standard Review --></label>
+        <name>Credit_Memo_Standard_Review</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Credit Memo Standard Review Account --></label>
+        <name>Credit_Memo_Standard_Review_Account</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Credit Memo Standard Review Product Package --></label>
+        <name>Credit_Memo_Standard_Review_Product_Pack</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Affiliated Detail --></label>
+        <name>LLC_BI__Affiliated_Detail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Balance Information --></label>
+        <name>LLC_BI__Balance_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Booked Information --></label>
+        <name>LLC_BI__Booked_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CRA Action Taken --></label>
+        <name>LLC_BI__CRA_Action_Taken</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CRA Loan Information --></label>
+        <name>LLC_BI__CRA_Loan_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CRA Other --></label>
+        <name>LLC_BI__CRA_Other</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CRA Property Location --></label>
+        <name>LLC_BI__CRA_Property_Location</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Collateral Summary --></label>
+        <name>LLC_BI__Collateral_Summary</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Construction --></label>
+        <name>LLC_BI__Construction</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Fields To Clone --></label>
+        <name>LLC_BI__Fields_To_Clone</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- HMDA Action Taken --></label>
+        <name>LLC_BI__HMDA_Action_Taken</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- HMDA Application/Loan Information --></label>
+        <name>LLC_BI__HMDA_Application_Loan_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- HMDA Loan Lifecycle --></label>
+        <name>LLC_BI__HMDA_Loan_Lifecycle</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- HMDA Property Location --></label>
+        <name>LLC_BI__HMDA_Property_Location</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Key Dates --></label>
+        <name>LLC_BI__Key_Dates</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Loan Auto-Decision Overview --></label>
+        <name>LLC_BI__Loan_Auto_Decision_Overview</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Loan Collateral Summary --></label>
+        <name>LLC_BI__Loan_Collateral_Summary_SS</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Loan Facility Creation Additional Fields --></label>
+        <name>LLC_BI__Loan_Facility_Creation_Additional_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Loan Information --></label>
+        <name>LLC_BI__Loan_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Loan Pricing Information --></label>
+        <name>LLC_BI__Loan_Pricing_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Loan Dashboard Summary --></label>
+        <name>LLC_BI__Loan_Summary</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Manage Loan Facilities --></label>
+        <name>LLC_BI__Manage_Loan_Facilities</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- MemoCategoryAmount --></label>
+        <name>LLC_BI__MemoCategoryAmount</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- MemoCategoryInformation --></label>
+        <name>LLC_BI__MemoCategoryInformation</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- MemoCategoryMaturityDate --></label>
+        <name>LLC_BI__MemoCategoryMaturityDate</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- MemoCategoryPostClosingItems --></label>
+        <name>LLC_BI__MemoCategoryPostClosingItems</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- MemoCategoryRate --></label>
+        <name>LLC_BI__MemoCategoryRate</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- MemoCategoryTerms --></label>
+        <name>LLC_BI__MemoCategoryTerms</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Participation Details --></label>
+        <name>LLC_BI__Participation_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Loan Summary --></label>
+        <name>LLC_BI__Pricing_Summary</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Credit Action --></label>
+        <name>LLC_BI__Product_Package_Credit_Action</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Pending Actions --></label>
+        <name>LLC_BI__Product_Package_Facilities</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product Package Facilities Active --></label>
+        <name>LLC_BI__Product_Package_Facilities_Active</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product Package Facilities Inactive --></label>
+        <name>LLC_BI__Product_Package_Facilities_Inactive</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product Package Facilities Non Pending --></label>
+        <name>LLC_BI__Product_Package_Facilities_Non_Pending</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Pending Actions --></label>
+        <name>LLC_BI__Product_Package_Pending_Actions</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Referral Information --></label>
+        <name>LLC_BI__Referral_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ReviewDisplay --></label>
+        <name>LLC_BI__ReviewDisplay</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SBA --></label>
+        <name>LLC_BI__SBA_Loan_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Credit Memo Standard Product Package --></label>
+        <name>LLC_BI__Standard_Product_Package_Credit_Memo</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Credit Memo Standard Product Package --></label>
+        <name>LLC_BI__Standard_Product_Package_Credit_Memo_Exp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Third Parties --></label>
+        <name>LLC_BI__Third_Parties</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Asset Summary --></label>
+        <name>LLC_BI__UI_Asset_Summary</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Balance Information --></label>
+        <name>LLC_BI__UI_Balance_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Booked Information --></label>
+        <name>LLC_BI__UI_Booked_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Budget Details --></label>
+        <name>LLC_BI__UI_Budget_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI CRA Action Taken --></label>
+        <name>LLC_BI__UI_CRA_Action_Taken</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI CRA Loan Information --></label>
+        <name>LLC_BI__UI_CRA_Loan_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI CRA Other --></label>
+        <name>LLC_BI__UI_CRA_Other</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI CRA Property Location --></label>
+        <name>LLC_BI__UI_CRA_Property_Location</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Collateral Summary --></label>
+        <name>LLC_BI__UI_Collateral_Summary</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Fees Summary --></label>
+        <name>LLC_BI__UI_Fees_Summary</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI HMDA Action Taken --></label>
+        <name>LLC_BI__UI_HMDA_Action_Taken</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI HMDA Application/Loan Information --></label>
+        <name>LLC_BI__UI_HMDA_Application_Loan_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI HMDA Loan Lifecycle --></label>
+        <name>LLC_BI__UI_HMDA_Loan_Lifecycle</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI HMDA Property Location --></label>
+        <name>LLC_BI__UI_HMDA_Property_Location</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Loan Information --></label>
+        <name>LLC_BI__UI_Loan_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Loan Pricing Information --></label>
+        <name>LLC_BI__UI_Loan_Pricing_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Loan Dashboard Summary --></label>
+        <name>LLC_BI__UI_Loan_Summary</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Lookup Fields --></label>
+        <name>LLC_BI__UI_Lookup_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Referral Information --></label>
+        <name>LLC_BI__UI_Referral_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- MemoCategoryLoanInformation --></label>
+        <name>MemoCategoryLoanInformation</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- PricingReadOnly --></label>
+        <name>PricingReadOnly</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- RequiredLoanFieldsToCreateRateOrPayment --></label>
+        <name>RequiredLoanFieldsToCreateRateOrPayment</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Credit Memo Standard Product Package --></label>
+        <name>Standard_Product_Package_Credit_Memo</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Credit Memo Standard Product Package --></label>
+        <name>Standard_Product_Package_Credit_Memo_Exp</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI - Approval Fields --></label>
+        <name>UI_Approval_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI - Attorney Info --></label>
+        <name>UI_Attorney_Info</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI - Compliance Information --></label>
+        <name>UI_Compliance_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI - Construction Info --></label>
+        <name>UI_Construction_Info</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI - Key Dates Editable --></label>
+        <name>UI_Key_Dates_Editable</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI - Key Dates Read Only --></label>
+        <name>UI_Key_Dates_Read_Only</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Loan Collateral1 Summary --></label>
+        <name>UI_Loan_Collateral1_Summary</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Loan Collateral Pledged --></label>
+        <name>UI_Loan_Collateral_Pledged</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI - Loan Compliance Certifications --></label>
+        <name>UI_Loan_Compliance_Certifications</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Loan Details --></label>
+        <name>UI_Loan_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Loan Narrative --></label>
+        <name>UI_Loan_Narrative</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Loan Pricing --></label>
+        <name>UI_Loan_Pricing</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI - Post Closing Review --></label>
+        <name>UI_Post_Closing_Review</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI - Product Selection --></label>
+        <name>UI_Product_Selection</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI - Secondary Market --></label>
+        <name>UI_Secondary_Market</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI - Structure Information --></label>
+        <name>UI_Structure_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- -D Loan Application Topbar Fields --></label>
+        <name>nPortal__Loan_Application_Topbar_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Portal_Product_List --></label>
+        <name>nPortal__Portal_Product_List</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- RL Eligibility Loan Information --></label>
+        <name>nPortal__RL_Eligibility_Loan</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SBL Eligibility Loan Information --></label>
+        <name>nPortal__SBL_Eligibility_Loan</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Secured RL Eligibility Loan Information --></label>
+        <name>nPortal__Secured_RL_Eligibility_Loan</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Secured SBL Eligibility Loan Information --></label>
+        <name>nPortal__Secured_SBL_Eligibility_Loan</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Your Products Loan Information --></label>
+        <name>nPortal__Your_Products_Loan</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Application Date --></label>
+        <name>Application_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Full Product Name --></label>
+        <name>Full_Product_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Funding Date --></label>
+        <name>Funding_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- HVCRE Reportable --></label>
+        <name>HVCRE_Reportable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integration Source --></label>
+        <name>Integration_Source__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please denote if this a Test Record. --></help>
+        <label><!-- Is this a Test? --></label>
+        <name>Is_this_a_Test__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- APR --></label>
+        <name>LLC_BI__APR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Officer --></label>
+        <name>LLC_BI__Account_Officer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relationship --></label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel><!-- Loans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Accrued Interest --></label>
+        <name>LLC_BI__Accrued_Interest__c</name>
+    </fields>
+    <fields>
+        <help><!-- If AAF = 1, then the stage was changed to decline by Credit. If AAF = 0, then it was changed by non-credit and required approval. --></help>
+        <label><!-- Adverse Action Flag --></label>
+        <name>LLC_BI__Adverse_Action_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allocated Facility Amount --></label>
+        <name>LLC_BI__Allocated_Facility_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amortized Term (Months) --></label>
+        <name>LLC_BI__Amortized_Term_Months__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amortized Term (Months) - D --></label>
+        <name>LLC_BI__Amortized_Term__c</name>
+    </fields>
+    <fields>
+        <help><!-- The amount outstanding for a line of commitment. --></help>
+        <label><!-- Amount Outstanding --></label>
+        <name>LLC_BI__AmountOutstanding__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amount Available --></label>
+        <name>LLC_BI__Amount_Available__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Money --></label>
+        <name>LLC_BI__Amount_New_Money__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amount Unused --></label>
+        <name>LLC_BI__Amount_Unused__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is the &quot;Original Amount&quot; of the loan at the time of underwriting. This is different than the &quot;Principal Balance&quot; of the loan, which is the balance of the loan today. --></help>
+        <label>Loan Amount</label>
+        <name>LLC_BI__Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- This system-populated field displays how much the interest rate increases annually. --></help>
+        <label><!-- Annual Rate Increase --></label>
+        <name>LLC_BI__Annual_Rate_Increase__c</name>
+    </fields>
+    <fields>
+        <label><!-- Application --></label>
+        <name>LLC_BI__Application__c</name>
+        <relationshipLabel><!-- Loans --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This field displays the maximum amount approved for a loan. --></help>
+        <label><!-- Approved For Amount --></label>
+        <name>LLC_BI__Approved_Loan_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attorney --></label>
+        <name>LLC_BI__Attorney__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorization Date --></label>
+        <name>LLC_BI__Authorization_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto-Decision Status --></label>
+        <name>LLC_BI__Auto_Decision_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto Pay Account --></label>
+        <name>LLC_BI__Auto_Pay_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto Pay --></label>
+        <name>LLC_BI__Auto_Pay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Availability from Core --></label>
+        <name>LLC_BI__Availability_From_Core__c</name>
+    </fields>
+    <fields>
+        <help><!-- The total amount for the balloon payment --></help>
+        <label><!-- Balloon Payment --></label>
+        <name>LLC_BI__Balloon_Payment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Balloon Product Structure --></label>
+        <name>LLC_BI__Balloon_Product_Structure__c</name>
+        <picklistValues>
+            <masterLabel>Balloon Amount</masterLabel>
+            <translation><!-- Balloon Amount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Balloon Term</masterLabel>
+            <translation><!-- Balloon Term --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This checkbox will be automatically set to = True when the Amortization Period (Months) and the Term (Months) are different. --></help>
+        <label>Balloon Loan</label>
+        <name>LLC_BI__Balloon__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing City --></label>
+        <name>LLC_BI__Billing_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing State --></label>
+        <name>LLC_BI__Billing_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Street --></label>
+        <name>LLC_BI__Billing_Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Zipcode --></label>
+        <name>LLC_BI__Billing_Zipcode__c</name>
+    </fields>
+    <fields>
+        <help><!-- Booked Date is a calculated date that represents when the Loan is considered &apos;Booked&apos; as defined by the Product State Configuration. This date should not be edited. --></help>
+        <label><!-- Booked Date Time --></label>
+        <name>LLC_BI__Booked_DateTime__c</name>
+    </fields>
+    <fields>
+        <help><!-- Booked Date is a calculated date that represents when the Loan is considered &apos;Booked&apos; as defined by the Product State Configuration.  This date should not be edited. --></help>
+        <label><!-- Booked Date --></label>
+        <name>LLC_BI__Booked_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Borrower City --></label>
+        <name>LLC_BI__Borrower_City__c</name>
+    </fields>
+    <fields>
+        <help><!-- Borrower&apos;s General Ledger Balance. Typically equals Principal Balance of the Loan. Exceptions are non-accrual, and charge-offs. --></help>
+        <label><!-- Borrower GL Balance --></label>
+        <name>LLC_BI__Borrower_GL_Balance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Borrower State --></label>
+        <name>LLC_BI__Borrower_State__c</name>
+        <picklistValues>
+            <masterLabel>AK</masterLabel>
+            <translation><!-- AK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL</masterLabel>
+            <translation><!-- AL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation><!-- AR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ</masterLabel>
+            <translation><!-- AZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation><!-- CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO</masterLabel>
+            <translation><!-- CO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT</masterLabel>
+            <translation><!-- CT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DC</masterLabel>
+            <translation><!-- DC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation><!-- DE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL</masterLabel>
+            <translation><!-- FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA</masterLabel>
+            <translation><!-- GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI</masterLabel>
+            <translation><!-- HI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA</masterLabel>
+            <translation><!-- IA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID</masterLabel>
+            <translation><!-- ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL</masterLabel>
+            <translation><!-- IL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation><!-- IN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KS</masterLabel>
+            <translation><!-- KS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY</masterLabel>
+            <translation><!-- KY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA</masterLabel>
+            <translation><!-- LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA</masterLabel>
+            <translation><!-- MA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD</masterLabel>
+            <translation><!-- MD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME</masterLabel>
+            <translation><!-- ME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI</masterLabel>
+            <translation><!-- MI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN</masterLabel>
+            <translation><!-- MN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO</masterLabel>
+            <translation><!-- MO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS</masterLabel>
+            <translation><!-- MS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT</masterLabel>
+            <translation><!-- MT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation><!-- NC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ND</masterLabel>
+            <translation><!-- ND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE</masterLabel>
+            <translation><!-- NE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH</masterLabel>
+            <translation><!-- NH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ</masterLabel>
+            <translation><!-- NJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM</masterLabel>
+            <translation><!-- NM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV</masterLabel>
+            <translation><!-- NV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY</masterLabel>
+            <translation><!-- NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation><!-- OK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation><!-- OR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA</masterLabel>
+            <translation><!-- PA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RI</masterLabel>
+            <translation><!-- RI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC</masterLabel>
+            <translation><!-- SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD</masterLabel>
+            <translation><!-- SD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN</masterLabel>
+            <translation><!-- TN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX</masterLabel>
+            <translation><!-- TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT</masterLabel>
+            <translation><!-- UT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA</masterLabel>
+            <translation><!-- VA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VT</masterLabel>
+            <translation><!-- VT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA</masterLabel>
+            <translation><!-- WA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI</masterLabel>
+            <translation><!-- WI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WV</masterLabel>
+            <translation><!-- WV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WY</masterLabel>
+            <translation><!-- WY --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Branch --></label>
+        <name>LLC_BI__Branch__c</name>
+        <relationshipLabel><!-- Loans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Referral Fee --></label>
+        <name>LLC_BI__Broker_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Budget --></label>
+        <name>LLC_BI__Budget__c</name>
+        <relationshipLabel><!-- Loans --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- CRA Action Taken for Loan --></help>
+        <label><!-- Action Taken --></label>
+        <name>LLC_BI__CRA_Action_Taken__c</name>
+        <picklistValues>
+            <masterLabel>1 - Loan Originated</masterLabel>
+            <translation><!-- 1 - Loan Originated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Loan Purchased By Your Institution</masterLabel>
+            <translation><!-- 2 - Loan Purchased By Your Institution --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- CRA Affiliate --></help>
+        <label><!-- Affiliate Code --></label>
+        <name>LLC_BI__CRA_Affiliate__c</name>
+        <picklistValues>
+            <masterLabel>1 - Action taken at this institution</masterLabel>
+            <translation><!-- 1 - Action taken at this institution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Action taken at an affiliate</masterLabel>
+            <translation><!-- 2 - Action taken at an affiliate --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Report the amount in thousands, rounded to the nearest thousand ($500 should be rounded up to the next thousand). --></help>
+        <label><!-- Loan Amount (amount in thousands) --></label>
+        <name>LLC_BI__CRA_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Census tract --></help>
+        <label><!-- Census Tract (####.## format) --></label>
+        <name>LLC_BI__CRA_Census_Tract_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- CRA Community Development Reportable --></help>
+        <label><!-- Community Development Reportable --></label>
+        <name>LLC_BI__CRA_Community_Development_Reportable__c</name>
+    </fields>
+    <fields>
+        <help><!-- CRA Consortium/Third Party Reportable --></help>
+        <label><!-- Consortium/Third Party Reportable --></label>
+        <name>LLC_BI__CRA_Consortium_Third_Party_Reportable__c</name>
+    </fields>
+    <fields>
+        <help><!-- CRA Date Action Taken --></help>
+        <label><!-- Date Action Taken --></label>
+        <name>LLC_BI__CRA_Date_Action_Taken__c</name>
+    </fields>
+    <fields>
+        <help><!-- FIPS County Code --></help>
+        <label><!-- Three Digit County Code --></label>
+        <name>LLC_BI__CRA_FIPS_County_Code_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- FIPS County Code --></help>
+        <label><!-- -D Three Digit County Code --></label>
+        <name>LLC_BI__CRA_FIPS_County_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- FIPS State Code --></help>
+        <label><!-- Two Digit State Code --></label>
+        <name>LLC_BI__CRA_FIPS_State_Code_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- FIPS State Code --></help>
+        <label><!-- -D Two Digit State Code --></label>
+        <name>LLC_BI__CRA_FIPS_State_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- CRA Loan ID --></help>
+        <label><!-- Loan Identification Number --></label>
+        <name>LLC_BI__CRA_Loan_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- MSA/MD Number --></help>
+        <label><!-- Five Digit MSA/MD Number --></label>
+        <name>LLC_BI__CRA_MSA_MD_Number_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- MSA/MD Number --></help>
+        <label><!-- -D Five Digit MSA/MD Number --></label>
+        <name>LLC_BI__CRA_MSA_MD_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- CRA Reportable --></help>
+        <label><!-- CRA Reportable --></label>
+        <name>LLC_BI__CRA_Reportable__c</name>
+    </fields>
+    <fields>
+        <help><!-- CRA Revenue --></help>
+        <label><!-- Revenue Code --></label>
+        <name>LLC_BI__CRA_Revenue__c</name>
+        <picklistValues>
+            <masterLabel>1 - Less than or equal to $1 million</masterLabel>
+            <translation><!-- 1 - Less than or equal to $1 million --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Greater than $1 million</masterLabel>
+            <translation><!-- 2 - Greater than $1 million --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Not Known</masterLabel>
+            <translation><!-- 3 - Not Known --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Loan Type --></label>
+        <name>LLC_BI__CRA_Type_Code__c</name>
+        <picklistValues>
+            <masterLabel>Credit card</masterLabel>
+            <translation><!-- Credit card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home equity</masterLabel>
+            <translation><!-- Home equity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motor vehicle</masterLabel>
+            <translation><!-- Motor vehicle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other loan data</masterLabel>
+            <translation><!-- Other loan data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other secured consumer loans</masterLabel>
+            <translation><!-- Other secured consumer loans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other secured lines of credit - small business</masterLabel>
+            <translation><!-- Other secured lines of credit - small business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other unsecured consumer loans</masterLabel>
+            <translation><!-- Other unsecured consumer loans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small business</masterLabel>
+            <translation><!-- Small business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small farm</masterLabel>
+            <translation><!-- Small farm --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Balloon amount calculated via a payment structure --></help>
+        <label><!-- Calculated Balloon Amount --></label>
+        <name>LLC_BI__Calculated_Balloon_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Report Code --></label>
+        <name>LLC_BI__Call_Report_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- Census tract --></help>
+        <label><!-- -D Census Tract (####.## format) --></label>
+        <name>LLC_BI__Census_Tract__c</name>
+    </fields>
+    <fields>
+        <label><!-- Class Code --></label>
+        <name>LLC_BI__Class_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Projected Close Date --></label>
+        <name>LLC_BI__CloseDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closing Date Confirmed --></label>
+        <name>LLC_BI__Close_Date_Hard__c</name>
+    </fields>
+    <fields>
+        <label><!-- Close Month --></label>
+        <name>LLC_BI__Close_Month__c</name>
+    </fields>
+    <fields>
+        <help><!-- Closed Date is a calculated date that represents when the Loan is considered &apos;Closed&apos; as defined by the Product State Configuration. This date should not be edited. --></help>
+        <label><!-- Closed Date --></label>
+        <name>LLC_BI__Closed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- % Complete --></label>
+        <name>LLC_BI__Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Compliance Officer --></label>
+        <name>LLC_BI__Compliance_Officer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Consortium/Third Party Reportable --></help>
+        <label><!-- Consortium/Third Party Reportable --></label>
+        <name>LLC_BI__Consortium_Third_Party_Reportable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Construction CO Date --></label>
+        <name>LLC_BI__Construction_CO_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Approval Date --></label>
+        <name>LLC_BI__Credit_Approval_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Memo --></label>
+        <name>LLC_BI__Credit_Memo__c</name>
+        <relationshipLabel><!-- Loans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Current Gross Lendable Value --></label>
+        <name>LLC_BI__Current_Gross_Lendable_Value_Collateral1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Interest Rate --></label>
+        <name>LLC_BI__Current_Interest_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Calculates LTV. Advance Rate is not considered in this calculation. --></help>
+        <label><!-- Current LTV --></label>
+        <name>LLC_BI__Current_LTV_Collateral1__c</name>
+    </fields>
+    <fields>
+        <help><!-- Principal Balance or Loan Amount / (Collateral Value from all Collateral - Total Prior Lien Amount from all Collateral) --></help>
+        <label><!-- Current LTV --></label>
+        <name>LLC_BI__Current_LTV__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sum of all collateral lendable value --></help>
+        <label><!-- Current Gross Lendable Value --></label>
+        <name>LLC_BI__Current_Total_Lendable_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days to Close --></label>
+        <name>LLC_BI__Days_to_Close__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field displays an applicant’s debt to income ratio. --></help>
+        <label><!-- Debt to Income Ratio --></label>
+        <name>LLC_BI__Debt_To_Income_Ratio__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is used to determine the default landing page for this loan within the nCino User Interface. --></help>
+        <label><!-- Default App --></label>
+        <name>LLC_BI__Default_App__c</name>
+    </fields>
+    <fields>
+        <label><!-- Depth --></label>
+        <name>LLC_BI__Depth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loan Purpose --></label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disbursement Description --></label>
+        <name>LLC_BI__Disbursement_Description__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation><!-- Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check</masterLabel>
+            <translation><!-- Check --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lender</masterLabel>
+            <translation><!-- Lender --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NonLoan</masterLabel>
+            <translation><!-- NonLoan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PayOff</masterLabel>
+            <translation><!-- PayOff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payable</masterLabel>
+            <translation><!-- Payable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This checkbox is used to specify when a loan belongs to an employee of the financial institution. The employee has entity involvement on this loan. --></help>
+        <label><!-- Employee Loan --></label>
+        <name>LLC_BI__Employee_Loan__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the estimated property value. Must be a numerical value. --></help>
+        <label><!-- Estimated Property Value --></label>
+        <name>LLC_BI__Estimated_Property_Value_2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Object that aggregates all the fee information related to this loan. --></help>
+        <label><!-- Fee Loan Aggregate --></label>
+        <name>LLC_BI__Fee_Loan_Aggregate__c</name>
+        <relationshipLabel><!-- Loans --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Attorney&apos;s reference number --></help>
+        <label><!-- File Number --></label>
+        <name>LLC_BI__File_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select value from this picklist to add or subtract financed fees from loan amount, or manually calculate. --></help>
+        <label><!-- Financed Fee Calculations --></label>
+        <name>LLC_BI__Financed_Fee_Calculations__c</name>
+        <picklistValues>
+            <masterLabel>Add to Loan Amount</masterLabel>
+            <translation><!-- Add to Loan Amount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual Calculation</masterLabel>
+            <translation><!-- Manual Calculation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subtract From Loan Amount</masterLabel>
+            <translation><!-- Subtract From Loan Amount --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- First Payment date is the expected date the first loan payment will be made. This field is used to determine amortization and complex payments. --></help>
+        <label><!-- First Payment Date --></label>
+        <name>LLC_BI__First_Payment_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- This system-populated field displays how much the interest rate increases for the first rate increase. --></help>
+        <label><!-- First Rate Increase --></label>
+        <name>LLC_BI__First_Rate_Increase__c</name>
+    </fields>
+    <fields>
+        <label><!-- % Funded --></label>
+        <name>LLC_BI__Funded__c</name>
+    </fields>
+    <fields>
+        <label><!-- Funding % --></label>
+        <name>LLC_BI__Funding__c</name>
+    </fields>
+    <fields>
+        <label><!-- Funding at Close --></label>
+        <name>LLC_BI__Funding_at_Close__c</name>
+    </fields>
+    <fields>
+        <label><!-- GTD Balance --></label>
+        <name>LLC_BI__GTD_Balance__c</name>
+    </fields>
+    <fields>
+        <label><!-- GTD Participated Balance --></label>
+        <name>LLC_BI__GTD_Participated_Balance__c</name>
+    </fields>
+    <fields>
+        <label><!-- GTD Participated % --></label>
+        <name>LLC_BI__GTD_Participated_Percent__c</name>
+    </fields>
+    <fields>
+        <help><!-- The jurisdiction/state law governing the loan --></help>
+        <label><!-- Governing Law State --></label>
+        <name>LLC_BI__Governing_Law_State__c</name>
+        <picklistValues>
+            <masterLabel>AK</masterLabel>
+            <translation><!-- AK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL</masterLabel>
+            <translation><!-- AL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation><!-- AR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ</masterLabel>
+            <translation><!-- AZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation><!-- CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO</masterLabel>
+            <translation><!-- CO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT</masterLabel>
+            <translation><!-- CT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DC</masterLabel>
+            <translation><!-- DC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation><!-- DE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL</masterLabel>
+            <translation><!-- FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA</masterLabel>
+            <translation><!-- GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI</masterLabel>
+            <translation><!-- HI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA</masterLabel>
+            <translation><!-- IA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID</masterLabel>
+            <translation><!-- ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL</masterLabel>
+            <translation><!-- IL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation><!-- IN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KS</masterLabel>
+            <translation><!-- KS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY</masterLabel>
+            <translation><!-- KY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA</masterLabel>
+            <translation><!-- LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA</masterLabel>
+            <translation><!-- MA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD</masterLabel>
+            <translation><!-- MD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME</masterLabel>
+            <translation><!-- ME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI</masterLabel>
+            <translation><!-- MI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN</masterLabel>
+            <translation><!-- MN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO</masterLabel>
+            <translation><!-- MO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS</masterLabel>
+            <translation><!-- MS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT</masterLabel>
+            <translation><!-- MT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation><!-- NC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ND</masterLabel>
+            <translation><!-- ND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE</masterLabel>
+            <translation><!-- NE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH</masterLabel>
+            <translation><!-- NH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ</masterLabel>
+            <translation><!-- NJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM</masterLabel>
+            <translation><!-- NM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV</masterLabel>
+            <translation><!-- NV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY</masterLabel>
+            <translation><!-- NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation><!-- OK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation><!-- OR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA</masterLabel>
+            <translation><!-- PA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RI</masterLabel>
+            <translation><!-- RI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC</masterLabel>
+            <translation><!-- SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD</masterLabel>
+            <translation><!-- SD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN</masterLabel>
+            <translation><!-- TN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX</masterLabel>
+            <translation><!-- TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT</masterLabel>
+            <translation><!-- UT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA</masterLabel>
+            <translation><!-- VA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VT</masterLabel>
+            <translation><!-- VT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA</masterLabel>
+            <translation><!-- WA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI</masterLabel>
+            <translation><!-- WI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WV</masterLabel>
+            <translation><!-- WV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WY</masterLabel>
+            <translation><!-- WY --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Gross Collateral Value --></label>
+        <name>LLC_BI__Gross_Collateral1_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Guarantee Fee Paid --></label>
+        <name>LLC_BI__Guarantee_Fee_Paid__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use the appropriate code to categorize the entry as a loan origination, a purchased loan, or an application (including a preapproval request) that did not result in an origination. --></help>
+        <label><!-- -D Action Taken --></label>
+        <name>LLC_BI__HMDA_Action_Taken__c</name>
+        <picklistValues>
+            <masterLabel>Code 1—Loan originated</masterLabel>
+            <translation><!-- Code 1—Loan originated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—Application approved but not accepted</masterLabel>
+            <translation><!-- Code 2—Application approved but not accepted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—Application denied</masterLabel>
+            <translation><!-- Code 3—Application denied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 4—Application withdrawn</masterLabel>
+            <translation><!-- Code 4—Application withdrawn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 5—File closed for incompleteness</masterLabel>
+            <translation><!-- Code 5—File closed for incompleteness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 6—Loan purchased by your institution</masterLabel>
+            <translation><!-- Code 6—Loan purchased by your institution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 7—Preapproval request denied</masterLabel>
+            <translation><!-- Code 7—Preapproval request denied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 8—Preapproval request approved but not accepted (optional reporting)</masterLabel>
+            <translation><!-- Code 8—Preapproval request approved but not accepted (optional reporting) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Report the dollar amount granted or requested in thousands. --></help>
+        <label><!-- -D Loan Amount (Amount in Thousands) --></label>
+        <name>LLC_BI__HMDA_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Census tract --></help>
+        <label><!-- -D Census Tract (####.## format) --></label>
+        <name>LLC_BI__HMDA_Census_Tract_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- Census tract --></help>
+        <label><!-- -D Census Tract (####.## format) --></label>
+        <name>LLC_BI__HMDA_Census_Tract__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Co-Applicant --></label>
+        <name>LLC_BI__HMDA_Co_Applicant__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the settlement or closing date for originations. --></help>
+        <label><!-- Date Action Taken --></label>
+        <name>LLC_BI__HMDA_Date_Action_Taken__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date the loan application was received by your institution. --></help>
+        <label><!-- -D Date Application Received --></label>
+        <name>LLC_BI__HMDA_Date_Application_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Date Interest Rate Set --></label>
+        <name>LLC_BI__HMDA_Date_Rate_Set__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Denial Reasons (Select up to three) --></label>
+        <name>LLC_BI__HMDA_Denial_Reasons__c</name>
+        <picklistValues>
+            <masterLabel>Code 1—Debt-to-income ratio</masterLabel>
+            <translation><!-- Code 1—Debt-to-income ratio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—Employment history</masterLabel>
+            <translation><!-- Code 2—Employment history --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—Credit history</masterLabel>
+            <translation><!-- Code 3—Credit history --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 4—Collateral</masterLabel>
+            <translation><!-- Code 4—Collateral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 5—Insufficient cash</masterLabel>
+            <translation><!-- Code 5—Insufficient cash --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 6—Unverifiable information</masterLabel>
+            <translation><!-- Code 6—Unverifiable information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 7—Credit application incomplete</masterLabel>
+            <translation><!-- Code 7—Credit application incomplete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 8—Mortgage insurance denied</masterLabel>
+            <translation><!-- Code 8—Mortgage insurance denied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 9—Other</masterLabel>
+            <translation><!-- Code 9—Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdrawn or closed for incompleteness</masterLabel>
+            <translation><!-- Withdrawn or closed for incompleteness --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- FIPS County Code --></help>
+        <label><!-- -D Three Digit County Code --></label>
+        <name>LLC_BI__HMDA_FIPS_County_Code_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- FIPS County Code --></help>
+        <label><!-- -D Three Digit County Code --></label>
+        <name>LLC_BI__HMDA_FIPS_County_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- FIPS State Code --></help>
+        <label><!-- -D Two Digit State Code --></label>
+        <name>LLC_BI__HMDA_FIPS_State_Code_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- FIPS State Code --></help>
+        <label><!-- -D Two Digit State Code --></label>
+        <name>LLC_BI__HMDA_FIPS_State_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D HOEPA Status --></label>
+        <name>LLC_BI__HMDA_HOEPA_Status__c</name>
+        <picklistValues>
+            <masterLabel>Code 1 - For a loan that you originated or purchased that is subject to the Home Ownership and Equity Protection Act of 1994 (HOEPA), because the APR or the points and fees on the loan exceed the HOEPA triggers</masterLabel>
+            <translation><!-- Code 1 - For a loan that you originated or purchased that is subject to the Home Ownership and Equity Protection Act of 1994 (HOEPA), because the APR or the points and fees on the loan exceed the HOEPA triggers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2 - all other cases</masterLabel>
+            <translation><!-- Code 2 - all other cases --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- -D Lien Status --></label>
+        <name>LLC_BI__HMDA_Lien_Status__c</name>
+        <picklistValues>
+            <masterLabel>Code 1—Secured by a first lien.</masterLabel>
+            <translation><!-- Code 1—Secured by a first lien. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—Secured by a subordinate lien.</masterLabel>
+            <translation><!-- Code 2—Secured by a subordinate lien. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—Not secured by a lien.</masterLabel>
+            <translation><!-- Code 3—Not secured by a lien. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 4—Not applicable (purchased loan)</masterLabel>
+            <translation><!-- Code 4—Not applicable (purchased loan) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- HMDA Loan ID --></help>
+        <label><!-- -D Loan Identification Number --></label>
+        <name>LLC_BI__HMDA_Loan_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Five Digit MSA/MD Number --></help>
+        <label><!-- -D Five Digit MSA/MD Number --></label>
+        <name>LLC_BI__HMDA_MSA_MD_Number_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Five Digit MSA/MD Number --></label>
+        <name>LLC_BI__HMDA_MSA_MD_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Occupancy --></label>
+        <name>LLC_BI__HMDA_Occupancy__c</name>
+        <picklistValues>
+            <masterLabel>Code 1—Owner-occupied as a principal dwelling</masterLabel>
+            <translation><!-- Code 1—Owner-occupied as a principal dwelling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—Not owner-occupied as a principal dwelling</masterLabel>
+            <translation><!-- Code 2—Not owner-occupied as a principal dwelling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—Not applicable</masterLabel>
+            <translation><!-- Code 3—Not applicable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- -D Request for Preapproval --></label>
+        <name>LLC_BI__HMDA_Preapproval_Requested__c</name>
+        <picklistValues>
+            <masterLabel>Code 1—Preapproval requested</masterLabel>
+            <translation><!-- Code 1—Preapproval requested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—Preapproval not requested</masterLabel>
+            <translation><!-- Code 2—Preapproval not requested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—Not applicable</masterLabel>
+            <translation><!-- Code 3—Not applicable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Report whether the loan or application was for manufactured housing, a multifamily dwelling, or a one- to-four-family dwelling other than manufactured housing. --></help>
+        <label><!-- -D Property Type --></label>
+        <name>LLC_BI__HMDA_Property_Type__c</name>
+        <picklistValues>
+            <masterLabel>Code 1—One- to four-family dwelling (other than manufactured housing)</masterLabel>
+            <translation><!-- Code 1—One- to four-family dwelling (other than manufactured housing) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—Manufactured housing</masterLabel>
+            <translation><!-- Code 2—Manufactured housing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—Multifamily dwelling</masterLabel>
+            <translation><!-- Code 3—Multifamily dwelling --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- -D Type of Purchase --></label>
+        <name>LLC_BI__HMDA_Purchaser_Type__c</name>
+        <picklistValues>
+            <masterLabel>Code 0—Loan was not originated or was not sold in calendar year covered by register</masterLabel>
+            <translation><!-- Code 0—Loan was not originated or was not sold in calendar year covered by register --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 1—Fannie Mae (FNMA)</masterLabel>
+            <translation><!-- Code 1—Fannie Mae (FNMA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—Ginnie Mae (GNMA)</masterLabel>
+            <translation><!-- Code 2—Ginnie Mae (GNMA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—Freddie Mac (FHLMC)</masterLabel>
+            <translation><!-- Code 3—Freddie Mac (FHLMC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 4—Farmer Mac (FAMC)</masterLabel>
+            <translation><!-- Code 4—Farmer Mac (FAMC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 5—Private securitization</masterLabel>
+            <translation><!-- Code 5—Private securitization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 6—Commercial bank, savings bank, or savings association</masterLabel>
+            <translation><!-- Code 6—Commercial bank, savings bank, or savings association --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 7—Life insurance company, credit union, mortgage bank, or finance company</masterLabel>
+            <translation><!-- Code 7—Life insurance company, credit union, mortgage bank, or finance company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 8—Affiliate institution</masterLabel>
+            <translation><!-- Code 8—Affiliate institution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 9—Other type of purchaser</masterLabel>
+            <translation><!-- Code 9—Other type of purchaser --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- HMDA Loan Purpose --></help>
+        <label><!-- -D Purpose of Loan --></label>
+        <name>LLC_BI__HMDA_Purpose__c</name>
+        <picklistValues>
+            <masterLabel>Code 1—Home purchase</masterLabel>
+            <translation><!-- Code 1—Home purchase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—Home improvement</masterLabel>
+            <translation><!-- Code 2—Home improvement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—Refinancing</masterLabel>
+            <translation><!-- Code 3—Refinancing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- -D Rate Spread (##.## format) --></label>
+        <name>LLC_BI__HMDA_Rate_Spread__c</name>
+    </fields>
+    <fields>
+        <help><!-- HMDA Loan Purpose --></help>
+        <label><!-- HMDA Record Type --></label>
+        <name>LLC_BI__HMDA_Record_Type__c</name>
+        <picklistValues>
+            <masterLabel>HMDA-Effective-2017</masterLabel>
+            <translation><!-- HMDA-Effective-2017 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HMDA-Effective-2018</masterLabel>
+            <translation><!-- HMDA-Effective-2018 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- HMDA Reportable --></label>
+        <name>LLC_BI__HMDA_Reportable__c</name>
+    </fields>
+    <fields>
+        <help><!-- HMDA Loan Type --></help>
+        <label><!-- -D Type of Loan --></label>
+        <name>LLC_BI__HMDA_Type__c</name>
+        <picklistValues>
+            <masterLabel>Code 1—Conventional (any loan other than FHA, VA, FSA, or RHS loans)</masterLabel>
+            <translation><!-- Code 1—Conventional (any loan other than FHA, VA, FSA, or RHS loans) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—FHA-insured (Federal Housing Administration)</masterLabel>
+            <translation><!-- Code 2—FHA-insured (Federal Housing Administration) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—VA-guaranteed (Veterans Administration)</masterLabel>
+            <translation><!-- Code 3—VA-guaranteed (Veterans Administration) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 4—FSA/RHS-guaranteed (Farm Service Agency or Rural Housing Service)</masterLabel>
+            <translation><!-- Code 4—FSA/RHS-guaranteed (Farm Service Agency or Rural Housing Service) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Highest --></label>
+        <name>LLC_BI__Highest__c</name>
+        <relationshipLabel><!-- Loans (Highest) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The Imported flag represents legacy loans that were created, processed and booked prior to the adoption of nCino. --></help>
+        <label><!-- Imported --></label>
+        <name>LLC_BI__Imported__c</name>
+    </fields>
+    <fields>
+        <help><!-- This system-populated field displays the current index value percentage. --></help>
+        <label><!-- Index Value --></label>
+        <name>LLC_BI__Index_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Index --></label>
+        <name>LLC_BI__Index__c</name>
+        <picklistValues>
+            <masterLabel>ARM</masterLabel>
+            <translation><!-- ARM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed</masterLabel>
+            <translation><!-- Fixed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LIBOR</masterLabel>
+            <translation><!-- LIBOR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treasury Constant Maturity - 1 Year +</masterLabel>
+            <translation><!-- Treasury Constant Maturity - 1 Year + --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treasury Constant Maturity - 10 Year +</masterLabel>
+            <translation><!-- Treasury Constant Maturity - 10 Year + --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treasury Constant Maturity - 2 Year +</masterLabel>
+            <translation><!-- Treasury Constant Maturity - 2 Year + --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treasury Constant Maturity - 3 Year +</masterLabel>
+            <translation><!-- Treasury Constant Maturity - 3 Year + --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treasury Constant Maturity - 5 Year +</masterLabel>
+            <translation><!-- Treasury Constant Maturity - 5 Year + --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treasury Constant Maturity - 7 Year +</masterLabel>
+            <translation><!-- Treasury Constant Maturity - 7 Year + --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WSJ Prime</masterLabel>
+            <translation><!-- WSJ Prime --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Initial Advance --></label>
+        <name>LLC_BI__Initial_Advance__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total interest rate to the borrower, including prime --></help>
+        <label><!-- Interest Rate --></label>
+        <name>LLC_BI__InterestRate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interest Accrual Method --></label>
+        <name>LLC_BI__Interest_Accrual_Method__c</name>
+        <picklistValues>
+            <masterLabel>30_360</masterLabel>
+            <translation><!-- 30_360 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Actual_360</masterLabel>
+            <translation><!-- Actual_360 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Actual_365</masterLabel>
+            <translation><!-- Actual_365 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Actual_Actual</masterLabel>
+            <translation><!-- Actual_Actual --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The amount of interest paid to date. --></help>
+        <label><!-- Interest (Amt) Paid to Date --></label>
+        <name>LLC_BI__Interest_Amount_Paid__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of payment months that are interest only. Don&apos;t include these months in the total month terms field above. --></help>
+        <label><!-- Interest Only Months --></label>
+        <name>LLC_BI__Interest_Only_Months__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interest Paid To Date --></label>
+        <name>LLC_BI__Interest_Paid_To_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interest Rate Adjustment Frequency --></label>
+        <name>LLC_BI__Interest_Rate_Adjustment_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Annual</masterLabel>
+            <translation><!-- Annual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biannual</masterLabel>
+            <translation><!-- Biannual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation><!-- Daily --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every Five Years</masterLabel>
+            <translation><!-- Every Five Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every Three Years</masterLabel>
+            <translation><!-- Every Three Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every Two Years</masterLabel>
+            <translation><!-- Every Two Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation><!-- Monthly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation><!-- Quarterly --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This system-populated field displays the percentage that the system adds to the index to determine the applicable rate for the account. --></help>
+        <label><!-- Interest Rate Margin Percent --></label>
+        <name>LLC_BI__Interest_Rate_Margin_Percent__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is utilized for trigger approval process actions that add loan team members
+            to the loan for the user to view. Loan Team Members are populated from queues and users
+            chosen to approve items. --></help>
+        <label><!-- ApprovalTriggerField --></label>
+        <name>LLC_BI__Is_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Booked --></label>
+        <name>LLC_BI__Is_Booked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Closed --></label>
+        <name>LLC_BI__Is_Closed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Copy --></label>
+        <name>LLC_BI__Is_Copy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Current Takedown --></label>
+        <name>LLC_BI__Is_Current_Takedown__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is ELOC --></label>
+        <name>LLC_BI__Is_ELOC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Excluded --></label>
+        <name>LLC_BI__Is_Excluded__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicate if the loan or package is in review --></help>
+        <label><!-- In Review --></label>
+        <name>LLC_BI__Is_In_Review__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select this checkbox to indicate that the loan is a jumbo loan. --></help>
+        <label><!-- Is Jumbo --></label>
+        <name>LLC_BI__Is_Jumbo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Lease --></label>
+        <name>LLC_BI__Is_Lease__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Letter of Credit --></label>
+        <name>LLC_BI__Is_Letter_of_Credit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Limit --></label>
+        <name>LLC_BI__Is_Limit__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicate if the loan is locked for editting. --></help>
+        <label><!-- Is Locked --></label>
+        <name>LLC_BI__Is_Locked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Main --></label>
+        <name>LLC_BI__Is_Main__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is_Modification --></label>
+        <name>LLC_BI__Is_Modification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Multi Level Future --></label>
+        <name>LLC_BI__Is_Multi_Level_Future__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is No Action Placeholder --></label>
+        <name>LLC_BI__Is_No_Action_Placeholder__c</name>
+    </fields>
+    <fields>
+        <help><!-- The facility structure was originally deactivated on this loan. --></help>
+        <label><!-- Is Original Declined Loan --></label>
+        <name>LLC_BI__Is_Original_Inactive_Loan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is_Paid_Off --></label>
+        <name>LLC_BI__Is_Paid_Off__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Participation --></label>
+        <name>LLC_BI__Is_Participation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Ready to Transmit --></label>
+        <name>LLC_BI__Is_Ready_To_Transmit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Regular Future --></label>
+        <name>LLC_BI__Is_Regular_Future__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Review Ready --></label>
+        <name>LLC_BI__Is_Review_Ready__c</name>
+    </fields>
+    <fields>
+        <help><!-- Populate this field to indicate if this is a SBA loan. --></help>
+        <label><!-- Is SBA --></label>
+        <name>LLC_BI__Is_SBA__c</name>
+    </fields>
+    <fields>
+        <help><!-- Is Loan Secured With Collateral --></help>
+        <label><!-- Is Secured --></label>
+        <name>LLC_BI__Is_Secured__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Sublimit --></label>
+        <name>LLC_BI__Is_Sublimit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Syndication --></label>
+        <name>LLC_BI__Is_Syndication__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Term Loan/Current --></label>
+        <name>LLC_BI__Is_Term_Loan_Current__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Pay Date --></label>
+        <name>LLC_BI__Last_Pay_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Source --></label>
+        <name>LLC_BI__LeadSource__c</name>
+        <picklistValues>
+            <masterLabel>Advertisement</masterLabel>
+            <translation><!-- Advertisement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Association</masterLabel>
+            <translation><!-- Association --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broker</masterLabel>
+            <translation><!-- Broker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Current Customer</masterLabel>
+            <translation><!-- Current Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Call</masterLabel>
+            <translation><!-- Direct Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email Campaign</masterLabel>
+            <translation><!-- Email Campaign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Referral</masterLabel>
+            <translation><!-- Employee Referral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industry Professional</masterLabel>
+            <translation><!-- Industry Professional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Magazine</masterLabel>
+            <translation><!-- Magazine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prior Origination</masterLabel>
+            <translation><!-- Prior Origination --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade Show</masterLabel>
+            <translation><!-- Trade Show --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web</masterLabel>
+            <translation><!-- Web --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wholesaler</masterLabel>
+            <translation><!-- Wholesaler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Word of Mouth</masterLabel>
+            <translation><!-- Word of Mouth --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Lead Source Details</label>
+        <name>LLC_BI__Lead_Detail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Specifics --></label>
+        <name>LLC_BI__Lead_Specifics__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Legal Firm --></label>
+        <name>LLC_BI__Legal_Firm__c</name>
+        <picklistValues>
+            <masterLabel>Sample Firm</masterLabel>
+            <translation><!-- Sample Firm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sample Firm 2</masterLabel>
+            <translation><!-- Sample Firm 2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Loan Class --></label>
+        <name>LLC_BI__Loan_Class__c</name>
+        <picklistValues>
+            <masterLabel>New Loan</masterLabel>
+            <translation><!-- New Loan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refinance Existing Loan With Lender</masterLabel>
+            <translation><!-- Refinance Existing Loan With Lender --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secured Renewal</masterLabel>
+            <translation><!-- Secured Renewal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsecured Renewal</masterLabel>
+            <translation><!-- Unsecured Renewal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Aggregate object that links all collateral to the loan --></help>
+        <label><!-- Loan Collateral Aggregate --></label>
+        <name>LLC_BI__Loan_Collateral_Aggregate__c</name>
+        <relationshipLabel><!-- Loans --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This lookup field contains the associated Loan Detail record&apos;s Id. --></help>
+        <label><!-- Loan Detail --></label>
+        <name>LLC_BI__Loan_Detail__c</name>
+        <relationshipLabel><!-- Loans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Loan Number - D --></label>
+        <name>LLC_BI__Loan_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loan Officer --></label>
+        <name>LLC_BI__Loan_Officer__c</name>
+        <relationshipLabel><!-- Loans (Loan Officer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Loan Type Code --></label>
+        <name>LLC_BI__Loan_Type_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- What rate, etc? --></help>
+        <label><!-- Lost Detail --></label>
+        <name>LLC_BI__Lost_Detail__c</name>
+    </fields>
+    <fields>
+        <help><!-- If Loan Stage is moved to Withdrawn, please identify why/how the business was lost. --></help>
+        <label><!-- Lost To --></label>
+        <name>LLC_BI__Lost_To__c</name>
+        <picklistValues>
+            <masterLabel>BB&amp;T</masterLabel>
+            <translation><!-- BB&amp;T --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bank of America</masterLabel>
+            <translation><!-- Bank of America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capital One</masterLabel>
+            <translation><!-- Capital One --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Citi</masterLabel>
+            <translation><!-- Citi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fifth Third Bank</masterLabel>
+            <translation><!-- Fifth Third Bank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JP Morgan Chase</masterLabel>
+            <translation><!-- JP Morgan Chase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PNC Bank</masterLabel>
+            <translation><!-- PNC Bank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regions Financial</masterLabel>
+            <translation><!-- Regions Financial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suntrust</masterLabel>
+            <translation><!-- Suntrust --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Bank</masterLabel>
+            <translation><!-- US Bank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wells Fargo</masterLabel>
+            <translation><!-- Wells Fargo --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The system automatically populates this optional field with a Military APR Sherman calculates when the MLA Status flag is set to true. --></help>
+        <label><!-- MAPR --></label>
+        <name>LLC_BI__MAPR__c</name>
+    </fields>
+    <fields>
+        <help><!-- Users select or the system automatically populates this optional boolean field to indicate if a consumer qualifies for the Military Lending Act when creating a loan. --></help>
+        <label><!-- MLA Status --></label>
+        <name>LLC_BI__MLA_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Team Alerts --></label>
+        <name>LLC_BI__MailerTeamKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Maturity Date --></label>
+        <name>LLC_BI__Maturity_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Maximum Availability --></label>
+        <name>LLC_BI__Maximum_Availability__c</name>
+    </fields>
+    <fields>
+        <help><!-- This system-populated field displays the maximum value the interest rate may increase from the specified teaser rate during the term of the loan. --></help>
+        <label><!-- Maximum Rate Increase --></label>
+        <name>LLC_BI__Maximum_Rate_Increase__c</name>
+    </fields>
+    <fields>
+        <label><!-- Modification Description Count --></label>
+        <name>LLC_BI__Modification_Description_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Modification Number --></label>
+        <name>LLC_BI__Modification_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monthly Payment --></label>
+        <name>LLC_BI__Monthly_Payment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Near Term Value --></label>
+        <name>LLC_BI__Near_Term_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Charge Offs --></label>
+        <name>LLC_BI__Net_Charge_Offs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Gain on Sale --></label>
+        <name>LLC_BI__Net_Gain_on_Sale__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is used to store the difference of the lending amount between the prior version of a renewed or modified loan and the current version. --></help>
+        <label><!-- Net New Funds --></label>
+        <name>LLC_BI__Net_New_Funds__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field displays the applicant’s total net worth. --></help>
+        <label><!-- Net Worth --></label>
+        <name>LLC_BI__Net_Worth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Interest Payment Date --></label>
+        <name>LLC_BI__Next_Interest_Payment_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Payment Due --></label>
+        <name>LLC_BI__Next_Payment_Due__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Interest Rate Change Date --></label>
+        <name>LLC_BI__Next_Rate_Change_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non-Accrual --></label>
+        <name>LLC_BI__Non_Accrual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of No Action Placeholders --></label>
+        <name>LLC_BI__Number_Of_No_Action_Placeholders__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of Renewals --></label>
+        <name>LLC_BI__Number_Of_Renewals__c</name>
+    </fields>
+    <fields>
+        <label><!-- Officer Comments --></label>
+        <name>LLC_BI__Officer_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Parent Loan --></label>
+        <name>LLC_BI__OriginalParentLoan__c</name>
+        <relationshipLabel><!-- Original Parent Loans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Original Guaranteed Amount --></label>
+        <name>LLC_BI__Original_Guaranteed_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- The value comes from the Current LTV at the time the loan hits booked. This value is populated by the system. --></help>
+        <label><!-- Original LTV --></label>
+        <name>LLC_BI__Original_LTV__c</name>
+    </fields>
+    <fields>
+        <help><!-- The sum of lendable value across all collateral attached to the loan. This field is populated by the system at the time the loan hits booked. --></help>
+        <label><!-- Original Total Lendable Value --></label>
+        <name>LLC_BI__Original_Total_Lendable_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Note Amount (Net) --></label>
+        <name>LLC_BI__Original_UNGTD_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Loan --></label>
+        <name>LLC_BI__ParentLoan__c</name>
+        <relationshipLabel><!-- Loans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Participation Date --></label>
+        <name>LLC_BI__Participation_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Participation Type --></label>
+        <name>LLC_BI__Participation_Type__c</name>
+        <picklistValues>
+            <masterLabel>Participation agreement agented</masterLabel>
+            <translation><!-- Participation agreement agented --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Participation bought</masterLabel>
+            <translation><!-- Participation bought --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Participation sold</masterLabel>
+            <translation><!-- Participation sold --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Partner GTD Left to Fund --></label>
+        <name>LLC_BI__Partner_GTD_Left_to_Fund__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Spread Over Base --></label>
+        <name>LLC_BI__Partner_Spread_Over_Base__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner UNGTD Left to Fund --></label>
+        <name>LLC_BI__Partner_UNGTD_Left_to_Fund__c</name>
+    </fields>
+    <fields>
+        <label>Days Past Due</label>
+        <name>LLC_BI__Past_Due_Days__c</name>
+    </fields>
+    <fields>
+        <help><!-- This formula date field captures the date payments begin. --></help>
+        <label><!-- Payment Begin Date --></label>
+        <name>LLC_BI__Payment_Begin_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Schedule --></label>
+        <name>LLC_BI__Payment_Schedule__c</name>
+        <picklistValues>
+            <masterLabel>Annual</masterLabel>
+            <translation><!-- Annual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bi-Monthly</masterLabel>
+            <translation><!-- Bi-Monthly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation><!-- Monthly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation><!-- Quarterly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-Annual</masterLabel>
+            <translation><!-- Semi-Annual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Pay</masterLabel>
+            <translation><!-- Single Pay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation><!-- Weekly --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Payment Type --></label>
+        <name>LLC_BI__Payment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Balloon</masterLabel>
+            <translation><!-- Balloon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction Permanent</masterLabel>
+            <translation><!-- Construction Permanent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draw Down Line Of Credit</masterLabel>
+            <translation><!-- Draw Down Line Of Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Generic Non-Disclosable</masterLabel>
+            <translation><!-- Generic Non-Disclosable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installment</masterLabel>
+            <translation><!-- Installment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Irregular</masterLabel>
+            <translation><!-- Irregular --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Principal+Interest</masterLabel>
+            <translation><!-- Principal+Interest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revolving Line Of Credit</masterLabel>
+            <translation><!-- Revolving Line Of Credit --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The date the note was paid out. --></help>
+        <label><!-- Payoff Date --></label>
+        <name>LLC_BI__Payoff_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Portfolio Number --></label>
+        <name>LLC_BI__Portfolio_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Post Closing Items --></label>
+        <name>LLC_BI__Post_Closing_Items__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the postal code of the property in context. --></help>
+        <label><!-- Postal Code --></label>
+        <name>LLC_BI__Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pre Close Call Date --></label>
+        <name>LLC_BI__Pre_Close_Call_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prepayment Penalty Description --></label>
+        <name>LLC_BI__Prepayment_Penalty_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prepayment Penalty? --></label>
+        <name>LLC_BI__Prepayment_Penalty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pricing Basis --></label>
+        <name>LLC_BI__Pricing_Basis__c</name>
+        <picklistValues>
+            <masterLabel>Fixed</masterLabel>
+            <translation><!-- Fixed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preferred Fixed</masterLabel>
+            <translation><!-- Preferred Fixed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preferred Variable</masterLabel>
+            <translation><!-- Preferred Variable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Variable</masterLabel>
+            <translation><!-- Variable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Applied Pricing Option --></label>
+        <name>LLC_BI__Pricing_Option__c</name>
+        <relationshipLabel><!-- Loans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Principal Balance --></label>
+        <name>LLC_BI__Principal_Balance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Probability (%) --></label>
+        <name>LLC_BI__Probabilty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loan Processor --></label>
+        <name>LLC_BI__Processor_Name__c</name>
+        <relationshipLabel><!-- Loans (Loan Processor) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Line --></label>
+        <name>LLC_BI__Product_Line__c</name>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation><!-- Commercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer</masterLabel>
+            <translation><!-- Consumer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Package --></label>
+        <name>LLC_BI__Product_Package__c</name>
+        <relationshipLabel><!-- Loan Facilities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Product Reference</label>
+        <name>LLC_BI__Product_Reference__c</name>
+        <relationshipLabel><!-- Loans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Type --></label>
+        <name>LLC_BI__Product_Type__c</name>
+        <picklistValues>
+            <masterLabel>Consumer Non-Real Estate</masterLabel>
+            <translation><!-- Consumer Non-Real Estate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Real Estate</masterLabel>
+            <translation><!-- Consumer Real Estate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Real Estate</masterLabel>
+            <translation><!-- Non-Real Estate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate</masterLabel>
+            <translation><!-- Real Estate --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>LLC_BI__Product__c</name>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation><!-- Construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment</masterLabel>
+            <translation><!-- Equipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HELOC</masterLabel>
+            <translation><!-- HELOC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Line of Credit</masterLabel>
+            <translation><!-- Line of Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase</masterLabel>
+            <translation><!-- Purchase --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Proposal Accepted --></label>
+        <name>LLC_BI__Proposal_Accepted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate Ceiling --></label>
+        <name>LLC_BI__Rate_Ceiling__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate Discount --></label>
+        <name>LLC_BI__Rate_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate Floor --></label>
+        <name>LLC_BI__Rate_Floor__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Real Estate Value --></label>
+        <name>LLC_BI__Real_Estate_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Real Estate --></label>
+        <name>LLC_BI__Real_Estate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referred To --></label>
+        <name>LLC_BI__Referred_To__c</name>
+        <picklistValues>
+            <masterLabel>BB&amp;T</masterLabel>
+            <translation><!-- BB&amp;T --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bank of America</masterLabel>
+            <translation><!-- Bank of America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capital One</masterLabel>
+            <translation><!-- Capital One --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Citi</masterLabel>
+            <translation><!-- Citi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fifth Third Bank</masterLabel>
+            <translation><!-- Fifth Third Bank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JP Morgan Chase</masterLabel>
+            <translation><!-- JP Morgan Chase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PNC Bank</masterLabel>
+            <translation><!-- PNC Bank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regions Financial</masterLabel>
+            <translation><!-- Regions Financial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suntrust</masterLabel>
+            <translation><!-- Suntrust --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Bank</masterLabel>
+            <translation><!-- US Bank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wells Fargo</masterLabel>
+            <translation><!-- Wells Fargo --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This checkbox is used to specify when a loan falls under the financial institutions Reg-O standards. --></help>
+        <label><!-- Reg O Loan --></label>
+        <name>LLC_BI__Reg_O_Loan__c</name>
+    </fields>
+    <fields>
+        <help><!-- Set this to 1 if to have the loan shared with the FDIC. --></help>
+        <label><!-- Regulator Loan Share --></label>
+        <name>LLC_BI__Regulator_Loan_Share__c</name>
+    </fields>
+    <fields>
+        <label><!-- Renewal Number --></label>
+        <name>LLC_BI__Renewal_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Retained Balance --></label>
+        <name>LLC_BI__Retained_Balance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Retained Servicing Spread --></label>
+        <name>LLC_BI__Retained_Servicing_Spread__c</name>
+    </fields>
+    <fields>
+        <label><!-- % Retained --></label>
+        <name>LLC_BI__Retained__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reviewed by Compliance --></label>
+        <name>LLC_BI__Reviewed_by_Compliance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reviewed by Loan Ops --></label>
+        <name>LLC_BI__Reviewed_by_Loan_Ops__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk Grade Template --></label>
+        <name>LLC_BI__Risk_Grade_Template__c</name>
+        <relationshipLabel><!-- Loans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Risk Grade --></label>
+        <name>LLC_BI__Risk_Grade__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation><!-- 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation><!-- 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13</masterLabel>
+            <translation><!-- 13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation><!-- 14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SBA Guarantee Fee --></label>
+        <name>LLC_BI__SBA_Guarantee_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- SBA Guarantee (%) --></label>
+        <name>LLC_BI__SBA_Guarantee__c</name>
+    </fields>
+    <fields>
+        <label><!-- SBA # --></label>
+        <name>LLC_BI__SBA__c</name>
+    </fields>
+    <fields>
+        <label><!-- SNC Type --></label>
+        <name>LLC_BI__SNC_Type__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SNC agent</masterLabel>
+            <translation><!-- SNC agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SNC non-agent</masterLabel>
+            <translation><!-- SNC non-agent --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Secondary Market Bid Date --></label>
+        <name>LLC_BI__Secondary_Market_Bid_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secondary Market Sold Date --></label>
+        <name>LLC_BI__Secondary_Market_Sold_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sold To --></label>
+        <name>LLC_BI__Secondary_Market_Sold_To__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secondary Markt Sold % --></label>
+        <name>LLC_BI__Secondary_Markt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secondary Mkt Sold --></label>
+        <name>LLC_BI__Secondary_Mkt_Sold__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Secondary Mkt Sold $ --></label>
+        <name>LLC_BI__Secondary_Mkt_Sold_currency__c</name>
+    </fields>
+    <fields>
+        <help><!-- This optional number field captures the payment date of semi-monthly payments. --></help>
+        <label><!-- Semimonthly Day --></label>
+        <name>LLC_BI__Semimonthly_Day__c</name>
+    </fields>
+    <fields>
+        <label><!-- Site Visit Date --></label>
+        <name>LLC_BI__Site_Visit_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Site Visit Owner --></label>
+        <name>LLC_BI__Site_Visit_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sold Amount ($) --></label>
+        <name>LLC_BI__Sold_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spread (%) --></label>
+        <name>LLC_BI__Spread__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stage And Status --></label>
+        <name>LLC_BI__Stage_And_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stage Progress --></label>
+        <name>LLC_BI__Stage_Progress__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stage --></label>
+        <name>LLC_BI__Stage__c</name>
+        <picklistValues>
+            <masterLabel>Approval / Loan Committee</masterLabel>
+            <translation><!-- Approval / Loan Committee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Booked</masterLabel>
+            <translation><!-- Booked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closing</masterLabel>
+            <translation><!-- Closing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Underwriting</masterLabel>
+            <translation><!-- Credit Underwriting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doc Prep</masterLabel>
+            <translation><!-- Doc Prep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final Review</masterLabel>
+            <translation><!-- Final Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation><!-- Processing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proposal</masterLabel>
+            <translation><!-- Proposal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualification</masterLabel>
+            <translation><!-- Qualification --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This system-populated field is checked when the interest rate is allowed to decrease below the teaser rate over the term of the loan and is unchecked when the interest rate cannot decrease below the teaser rate. --></help>
+        <label><!-- Stair Step Down --></label>
+        <name>LLC_BI__Stair_Step_Down__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Charge-Off</masterLabel>
+            <translation><!-- Charge-Off --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Declined</masterLabel>
+            <translation><!-- Declined --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hold</masterLabel>
+            <translation><!-- Hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost</masterLabel>
+            <translation><!-- Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid Out</masterLabel>
+            <translation><!-- Paid Out --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdrawn</masterLabel>
+            <translation><!-- Withdrawn --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Structure Hierarchy --></label>
+        <name>LLC_BI__Structure_Hierarchy__c</name>
+        <picklistValues>
+            <masterLabel>Limit</masterLabel>
+            <translation><!-- Limit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Main</masterLabel>
+            <translation><!-- Main --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sub Limit</masterLabel>
+            <translation><!-- Sub Limit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Takedown</masterLabel>
+            <translation><!-- Takedown --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Structure --></label>
+        <name>LLC_BI__Structure__c</name>
+        <picklistValues>
+            <masterLabel>ELOC</masterLabel>
+            <translation><!-- ELOC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letter of Credit</masterLabel>
+            <translation><!-- Letter of Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi Level Future</masterLabel>
+            <translation><!-- Multi Level Future --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regular Future</masterLabel>
+            <translation><!-- Regular Future --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Term Loan/Current</masterLabel>
+            <translation><!-- Term Loan/Current --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Booked Date is a calculated date that represents when the Loan is considered &apos;Booked&apos; as defined by the Product State Configuration. This date should not be edited. --></help>
+        <label><!-- Superceded Date Time --></label>
+        <name>LLC_BI__Superceded_DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Syndication Type --></label>
+        <name>LLC_BI__Syndication_Type__c</name>
+        <picklistValues>
+            <masterLabel>Syndication agented</masterLabel>
+            <translation><!-- Syndication agented --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Syndication purchased</masterLabel>
+            <translation><!-- Syndication purchased --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Syndication title role</masterLabel>
+            <translation><!-- Syndication title role --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- TDR --></label>
+        <name>LLC_BI__TDR__c</name>
+    </fields>
+    <fields>
+        <help><!-- This system-populated field displays the interest rate initially applied to the loan. --></help>
+        <label><!-- Teaser Rate --></label>
+        <name>LLC_BI__Teaser_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- This system-populated field displays the number of payments the teaser rate is in effect. --></help>
+        <label><!-- Teaser Term --></label>
+        <name>LLC_BI__Teaser_Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loan Term (Months) --></label>
+        <name>LLC_BI__Term_Months__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field displays an applicant’s total amount of assets. --></help>
+        <label><!-- Total Assets --></label>
+        <name>LLC_BI__Total_Assets__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Charge Offs --></label>
+        <name>LLC_BI__Total_Charge_Offs__c</name>
+    </fields>
+    <fields>
+        <help><!-- The total amount of collateral pledged against the loan --></help>
+        <label><!-- Total Collateral Pledged --></label>
+        <name>LLC_BI__Total_Collateral_Pledged__c</name>
+    </fields>
+    <fields>
+        <help><!-- The combined value of all collateral on the loan --></help>
+        <label><!-- Gross Collateral Value --></label>
+        <name>LLC_BI__Total_Collateral_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sum of all Liens associated with the loan --></help>
+        <label><!-- Current Prior Lien Amount --></label>
+        <name>LLC_BI__Total_Current_Lien_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Debts --></label>
+        <name>LLC_BI__Total_Debts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Disbursed --></label>
+        <name>LLC_BI__Total_Disbursed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Facility Amount --></label>
+        <name>LLC_BI__Total_Facility_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Fee Income --></label>
+        <name>LLC_BI__Total_Fee_Income__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total GTD Future --></label>
+        <name>LLC_BI__Total_Future_Adv__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Monthly Debt --></label>
+        <name>LLC_BI__Total_Monthly_Debt__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the total monthly expenses. --></help>
+        <label><!-- Total Monthly Expenses --></label>
+        <name>LLC_BI__Total_Monthly_Expenses__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Monthly Income --></label>
+        <name>LLC_BI__Total_Monthly_Income__c</name>
+    </fields>
+    <fields>
+        <help><!-- Computed by the formula: 
+Sum of Interest Only Months + Principal &amp; Interest Months --></help>
+        <label><!-- Total Monthly Payments --></label>
+        <name>LLC_BI__Total_Monthly_Payments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Prior Lien Amount Collateral1 --></label>
+        <name>LLC_BI__Total_Prior_Lien_Amount_Collateral1__c</name>
+    </fields>
+    <fields>
+        <help><!-- All liens held against the loan except the liens associated to the loan. Populated when the loan hits booked --></help>
+        <label><!-- Total Prior Lien Amount --></label>
+        <name>LLC_BI__Total_Prior_Lien_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Total Collateral Value</label>
+        <name>LLC_BI__Total_Real_Estate_Collateral__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Recoveries --></label>
+        <name>LLC_BI__Total_Recovery__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Superior Lien Amount --></label>
+        <name>LLC_BI__Total_Superior_Lien_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Undisbursed --></label>
+        <name>LLC_BI__Total_Undisbursed__c</name>
+    </fields>
+    <fields>
+        <label><!-- UCC Expiration (County) --></label>
+        <name>LLC_BI__UCC_County__c</name>
+    </fields>
+    <fields>
+        <label><!-- UCC Expiration (State) --></label>
+        <name>LLC_BI__UCC_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- UNGTD Balance --></label>
+        <name>LLC_BI__UNGTD_Balance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Exposure --></label>
+        <name>LLC_BI__UNGTD_Exposure__c</name>
+    </fields>
+    <fields>
+        <label><!-- UNGTD Participated Balance --></label>
+        <name>LLC_BI__UNGTD_Participated_Balance__c</name>
+    </fields>
+    <fields>
+        <label><!-- UNGTD Participated % --></label>
+        <name>LLC_BI__UNGTD_Participated_Percent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Underwriting Summary --></label>
+        <name>LLC_BI__Underwriting_Summary__c</name>
+        <relationshipLabel><!-- Loans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Undisbursed GTD --></label>
+        <name>LLC_BI__Undisbursed_GTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Undisbursed UNGTD --></label>
+        <name>LLC_BI__Undisbursed_UNGTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Watchlist Date --></label>
+        <name>LLC_BI__Watchlist_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wire Date --></label>
+        <name>LLC_BI__Wire_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- hasRenewal --></label>
+        <name>LLC_BI__hasRenewal__c</name>
+    </fields>
+    <fields>
+        <label><!-- isClosed --></label>
+        <name>LLC_BI__isClosed__c</name>
+    </fields>
+    <fields>
+        <label><!-- isConvert --></label>
+        <name>LLC_BI__isConvert__c</name>
+    </fields>
+    <fields>
+        <label><!-- isRenewal --></label>
+        <name>LLC_BI__isRenewal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loan Number --></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <help><!-- This system-populated field displays the unique identifier for the loan. --></help>
+        <label><!-- nCino Loan Number --></label>
+        <name>LLC_BI__nCino_Loan_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is used to lookup Legal Firms that have been entered as a Relationship within nCino.  If you do not see your Legal Firm&apos;s name, please create them as a new Relationship and return to this field. --></help>
+        <label><!-- Legal Firm --></label>
+        <name>Legal_Firm_Customer__c</name>
+        <relationshipLabel><!-- Legal Firm --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Migration ID --></label>
+        <name>Migration_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter comments relevant to Post Closing Review findings. --></help>
+        <label><!-- Post Closing Review Comments --></label>
+        <name>Post_Closing_Review_Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use this field to list the user who completed the Post Closing Review. --></help>
+        <label><!-- Post Closing Review Completed By --></label>
+        <name>Post_Closing_Review_Completed_By__c</name>
+        <relationshipLabel><!-- Loans (Post Closing Review Completed By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Enter the date that the Post Closing Review was completed. --></help>
+        <label><!-- Post Closing Review Completed Date --></label>
+        <name>Post_Closing_Review_Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Source of Repayment --></label>
+        <name>Primary_Source_of_Repayment__c</name>
+        <picklistValues>
+            <masterLabel>Cash flow from Operations</masterLabel>
+            <translation><!-- Cash flow from Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lease Income</masterLabel>
+            <translation><!-- Lease Income --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liquidation of Collateral</masterLabel>
+            <translation><!-- Liquidation of Collateral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receivables</masterLabel>
+            <translation><!-- Receivables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reliance on Guarantors</masterLabel>
+            <translation><!-- Reliance on Guarantors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Working Capital Turnover</masterLabel>
+            <translation><!-- Working Capital Turnover --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Indicates this transactions meets the criteria for Reg W Reportability. --></help>
+        <label><!-- Reg W Reportable --></label>
+        <name>Reg_W_Reportable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secondary Market Buyer --></label>
+        <name>Secondary_Market_Buyer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secondary Source of Repayment --></label>
+        <name>Secondary_Source_of_Repayment__c</name>
+        <picklistValues>
+            <masterLabel>Cash flow from Operations</masterLabel>
+            <translation><!-- Cash flow from Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lease Income</masterLabel>
+            <translation><!-- Lease Income --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liquidation of Collateral</masterLabel>
+            <translation><!-- Liquidation of Collateral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receivables</masterLabel>
+            <translation><!-- Receivables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reliance on Guarantors</masterLabel>
+            <translation><!-- Reliance on Guarantors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Working Capital Turnover</masterLabel>
+            <translation><!-- Working Capital Turnover --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This date is automatically populated when a loan is Submitted for Approval.  It cannot be manually updated. --></help>
+        <label><!-- Submitted for Approval Date --></label>
+        <name>Submitted_for_Approval_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tertiary Source of Repayment --></label>
+        <name>Tertiary_Source_of_Repayment__c</name>
+        <picklistValues>
+            <masterLabel>Cash flow from Operations</masterLabel>
+            <translation><!-- Cash flow from Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lease Income</masterLabel>
+            <translation><!-- Lease Income --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liquidation of Collateral</masterLabel>
+            <translation><!-- Liquidation of Collateral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receivables</masterLabel>
+            <translation><!-- Receivables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reliance on Guarantors</masterLabel>
+            <translation><!-- Reliance on Guarantors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Working Capital Turnover</masterLabel>
+            <translation><!-- Working Capital Turnover --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <description><!-- This Record Type will Apply to Commercial Loans --></description>
+        <label><!-- Commercial Loan Record Type --></label>
+        <name>Commercial_Loan_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This Record Type will Apply to Consumer Loans --></description>
+        <label><!-- Consumer Loan Record Type --></label>
+        <name>Consumer_Loan_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This Record Type will Apply to Government Guaranteed Loans --></description>
+        <label><!-- Government Guaranteed Record Type --></label>
+        <name>Government_Guaranteed_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This Record Type will Apply to Guidance LOC Sub Loans --></description>
+        <label><!-- Guidance LOC Sub Loan Record Type --></label>
+        <name>Guidance_LOC_Sub_Loan_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This Record Type will Apply to Guidance Lines of Credit --></description>
+        <label><!-- Guidance Line Record Type --></label>
+        <name>Guidance_Line_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is the layout that&apos;s shown when &quot;New Record&quot; is clicked, only showing the basic info, and product selection info. --></description>
+        <label>nCino Test Record Type 1</label>
+        <name>LLC_BI__Start</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Used for Unit Tests --></description>
+        <label>nCino Test Record Type 3</label>
+        <name>LLC_BI__Test_Product_Type_1</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- testing the product type broad match --></description>
+        <label>nCino Test Record Type 2</label>
+        <name>LLC_BI__Test_Product_Type_1v2</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Amount Outstanding cannot exceed the maximum Amount available. --></errorMessage>
+        <name>LLC_BI__Amount_Outstanding_Check_Against_Amount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Loan Term and Amortized Term must have the same value. --></errorMessage>
+        <name>LLC_BI__Balloon_Amount_terms_must_be_equal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must input values for Loan Term and Amortized Term. --></errorMessage>
+        <name>LLC_BI__Balloon_Loan_terms_cannot_be_blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Loan Term and Amortized Term cannot be equal. --></errorMessage>
+        <name>LLC_BI__Balloon_Term_loan_not_equal_to_amortized</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A loan can be a renewal OR a modification.  It cannot be both. --></errorMessage>
+        <name>LLC_BI__Cannot_Check_More_Than_One_Loan_Type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please ensure that the interest rate for this loan is not above the ceiling rate. --></errorMessage>
+        <name>LLC_BI__Interest_Rate_Above_Ceiling</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please ensure that the interest rate for this loan is not below the floor rate. --></errorMessage>
+        <name>LLC_BI__Interest_Rate_Below_Floor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please ensure that the rate ceiling is higher or equal to the floor rate. --></errorMessage>
+        <name>LLC_BI__Rate_Ceiling_Higher_Or_Equal_To_Floor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Please ensure that the floor rate is lower or equal to the ceiling rate.</errorMessage>
+        <name>LLC_BI__Rate_Floor_Lower_Or_Equal_To_Ceiling</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Committed Amount cannot be greater than the parent amount</errorMessage>
+        <name>LLC_BI__Takedown_Amount_Less_Or_Equal_Parent</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Amount Outstanding cannot exceed the maximum Amount available - LV01 --></errorMessage>
+        <name>Loan_Validation_01</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please ensure that the interest rate for this loan is not above the ceiling rate - LV02 --></errorMessage>
+        <name>Loan_Validation_02</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please ensure that the interest rate for this loan is not below the floor rate - LV03 --></errorMessage>
+        <name>Loan_Validation_03</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You Cannot Manually Change the Loan Stage to Approval / Loan Committee. Please Ensure That All Information is Accurate and Press the &apos;Submit for Approval&apos; Button at the Top of the Page. - LV04 --></errorMessage>
+        <name>Loan_Validation_04</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Loan Number is Required Prior to Changing the Loan Stage to &apos;Booked&apos; - LV05 --></errorMessage>
+        <name>Loan_Validation_05</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You Cannot Manually Change the Loan to a Post Approval Stage. The Loan Must be Approved by pressing the &apos;Submit for Approval&apos; Button at the top of the page. - LV06 --></errorMessage>
+        <name>Loan_Validation_06</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please ensure that the rate ceiling is higher or equal to the floor rate - LV07 --></errorMessage>
+        <name>Loan_Validation_07</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This Loan has been Superseded and cannot be edited.  Please review the most recent Renewal or contact your Administrator for more information. - LV09 --></errorMessage>
+        <name>Loan_Validation_09</name>
+    </validationRules>
+    <webLinks>
+        <label>Entity Tree</label>
+        <name>LLC_BI__Borrower_Tree</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Change_Product --></label>
+        <name>LLC_BI__Change_Product</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Copy_Loan --></label>
+        <name>LLC_BI__Copy_Loan</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Credit_Memo --></label>
+        <name>LLC_BI__Credit_Memo</name>
+    </webLinks>
+    <webLinks>
+        <label>Decline / Withdraw Loan</label>
+        <name>LLC_BI__Decline_Loan</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- DocuSign --></label>
+        <name>LLC_BI__DocuSign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Loan_Submit_For_Approval --></label>
+        <name>LLC_BI__Loan_Submit_For_Approval</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- NewLoan --></label>
+        <name>LLC_BI__NewLoan</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Facility --></label>
+        <name>LLC_BI__New_Facility</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Takedown --></label>
+        <name>LLC_BI__New_Takedown</name>
+    </webLinks>
+    <webLinks>
+        <label>nCino UI</label>
+        <name>LLC_BI__Switch_UI</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Underwriting_Summary --></label>
+        <name>LLC_BI__Underwriting_Summary</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- deleteLoan --></label>
+        <name>LLC_BI__deleteLoan</name>
+    </webLinks>
+    <webLinks>
+        <label>Renew / Modify Loan</label>
+        <name>LLC_BI__renew_loan</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- StatementLauncher --></label>
+        <name>nCRED__StatementLauncher</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Form_Generation --></label>
+        <name>nFORMS__Form_Generation</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Manage_Customer_Portal --></label>
+        <name>nPortal__Manage_Customer_Portal</name>
+    </webLinks>
+</CustomObjectTranslation>

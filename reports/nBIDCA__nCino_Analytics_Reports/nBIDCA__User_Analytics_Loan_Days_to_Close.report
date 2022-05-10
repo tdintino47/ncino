@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_ID</field>
+    </columns>
+    <columns>
+        <field>LLC_BI__Loan__c.LLC_BI__Closed_Date__c</field>
+    </columns>
+    <columns>
+        <field>LLC_BI__Loan__c.LLC_BI__Days_to_Close__c</field>
+    </columns>
+    <description>Daily report for loans days to close</description>
+    <format>Tabular</format>
+    <name>User Analytics: Loan Days to Close</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$LLC_BI__Loan__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>LLC_BI__Loan__c.LLC_BI__Closed_Date__c</dateColumn>
+        <interval>INTERVAL_YESTERDAY</interval>
+    </timeFrameFilter>
+</Report>

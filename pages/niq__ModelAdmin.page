@@ -1,0 +1,19 @@
+<apex:page showHeader="false" sidebar="false">
+	<apex:includeScript value="{!URLFOR($Resource.nFORCE__layout_designer_models_bundle)}" />
+	<apex:actionStatus onstart="LifeCycle.blockUI();" onstop="LifeCycle.unblockUI();" id="ajaxPleaseWait" />
+	<nFORCE:LifeCycle_Functions />
+	<nFORCE:Include_Design_System flavor="vf" components="true"/>
+	<c:AdminConfiguration adminType="modelAdmin" />
+	<apex:slds />
+	<div class="slds slds-scope">
+		<model-admin></model-admin>
+	</div>
+	<script defer="defer" type="application/javascript" src="{!URLFOR($Resource.nFORCE__nforms, 'nforms.min.js')}"></script>
+	<script src="{!URLFOR($Resource.model_admin, 'runtime.js')}"/>
+	<script src="{!URLFOR($Resource.model_admin, 'polyfills.js')}"/>
+	<script src="{!URLFOR($Resource.model_admin, 'main.js')}"/>
+	<script src="{!URLFOR($Resource.model_admin, 'styles.js')}"/>
+	<script src="{!URLFOR($Resource.model_admin, 'vendor.js')}"/>
+	<script type="application/javascript">
+	</script>
+</apex:page>

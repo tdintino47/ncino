@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Average --></label>
+        <name>nBIDC__Average__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count --></label>
+        <name>nBIDC__Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>nBIDC__End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grouping 1 --></label>
+        <name>nBIDC__Grouping_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grouping 2 --></label>
+        <name>nBIDC__Grouping_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grouping 3 --></label>
+        <name>nBIDC__Grouping_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grouping 4 --></label>
+        <name>nBIDC__Grouping_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grouping 5 --></label>
+        <name>nBIDC__Grouping_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Dirty --></label>
+        <name>nBIDC__Is_Dirty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max --></label>
+        <name>nBIDC__Max__c</name>
+    </fields>
+    <fields>
+        <label><!-- Min --></label>
+        <name>nBIDC__Min__c</name>
+    </fields>
+    <fields>
+        <label><!-- Send Date Time --></label>
+        <name>nBIDC__Send_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>nBIDC__Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sum --></label>
+        <name>nBIDC__Sum__c</name>
+    </fields>
+    <fields>
+        <label><!-- Timestamp --></label>
+        <name>nBIDC__Timestamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unique Name --></label>
+        <name>nBIDC__Unique_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>nBIDC__Value__c</name>
+    </fields>
+    <webLinks>
+        <label><!-- Push_Data --></label>
+        <name>nBIDC__Push_Data</name>
+    </webLinks>
+</CustomObjectTranslation>

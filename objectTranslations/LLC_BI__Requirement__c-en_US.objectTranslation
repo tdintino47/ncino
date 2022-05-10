@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Maintenance Request Orders --></label>
+        <name>LLC_BI__Maintenance_Request_Orders</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Smart Checklist Account Fields --></label>
+        <name>LLC_BI__Smart_Checklist_Account_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Smart Checklist Collateral Fields --></label>
+        <name>LLC_BI__Smart_Checklist_Collateral_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Smart Checklist Loan Fields --></label>
+        <name>LLC_BI__Smart_Checklist_Loan_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Smart Checklist Product Package Fields --></label>
+        <name>LLC_BI__Smart_Checklist_Product_Package_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Smart Checklist Treasury Service Fields --></label>
+        <name>LLC_BI__Smart_Checklist_Treasury_Service_Fields</name>
+    </fieldSets>
+    <fields>
+        <help><!-- This required field populates based on the action that the user selects. This field contains the action of each individual maintenance request. --></help>
+        <label><!-- Action --></label>
+        <name>LLC_BI__Action__c</name>
+    </fields>
+    <fields>
+        <help><!-- This optional field contains the number of days taken to complete this Requirement. --></help>
+        <label><!-- Actual Duration Days --></label>
+        <name>LLC_BI__Actual_Duration_Days__c</name>
+    </fields>
+    <fields>
+        <help><!-- This optional field stores the Forms syntax that determines if a requirement will be created. --></help>
+        <label><!-- Advanced Criteria --></label>
+        <name>LLC_BI__Advanced_Criteria__c</name>
+    </fields>
+    <fields>
+        <help><!-- This read-only field gets populated by the system with the Id of the original owner of this requirement. Possible values are Users, Queues, and LLC_BI__Role__c Ids. --></help>
+        <label><!-- Assigned Party --></label>
+        <name>LLC_BI__Assigned_Party__c</name>
+    </fields>
+    <fields>
+        <help><!-- This formula field displays the name of the User or Queue who owns this Requirement. --></help>
+        <label><!-- Assignee --></label>
+        <name>LLC_BI__Assignee__c</name>
+    </fields>
+    <fields>
+        <help><!-- This required field contains a reference to the Checklist to which this Requirement belongs. --></help>
+        <label><!-- Checklist --></label>
+        <name>LLC_BI__Checklist__c</name>
+        <relationshipLabel><!-- Requirements --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This field contains the id of the record to which this Requirement pertains. --></help>
+        <label><!-- Context Id --></label>
+        <name>LLC_BI__Context_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- This optional field contains the date by which this Requirement must be completed. --></help>
+        <label><!-- Due Date --></label>
+        <name>LLC_BI__Due_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- This optional field contains the number of days expected to complete this Requirement. --></help>
+        <label><!-- Expected Duration Days --></label>
+        <name>LLC_BI__Expected_Duration_Days__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this field to indicate that this Requirement must be completed before the Context Object can move beyond the Checkpoint Context. --></help>
+        <label><!-- Hard Stop --></label>
+        <name>LLC_BI__Hard_Stop__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this field to indicate this requirement is a template. --></help>
+        <label><!-- Is Template --></label>
+        <name>LLC_BI__Is_Template__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field indicates whether a Requirement record has been manually waived. The system sets this field automatically if the user sets a Requirement to &apos;Waived&apos; in the user interface. --></help>
+        <label><!-- Manually Waived --></label>
+        <name>LLC_BI__Manually_Waived__c</name>
+    </fields>
+    <fields>
+        <help><!-- Represents the context metadata record needed by this requirement. --></help>
+        <label><!-- Needed By Context --></label>
+        <name>LLC_BI__Needed_By_Context__c</name>
+    </fields>
+    <fields>
+        <label><!-- Needed By --></label>
+        <name>LLC_BI__Needed_By__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed Funded</masterLabel>
+            <translation><!-- Closed Funded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closing</masterLabel>
+            <translation><!-- Closing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compliance</masterLabel>
+            <translation><!-- Compliance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Underwriting</masterLabel>
+            <translation><!-- Credit Underwriting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doc Prep</masterLabel>
+            <translation><!-- Doc Prep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doc Review</masterLabel>
+            <translation><!-- Doc Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Committee</masterLabel>
+            <translation><!-- Loan Committee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation><!-- Processing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proposal</masterLabel>
+            <translation><!-- Proposal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualification</masterLabel>
+            <translation><!-- Qualification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicing</masterLabel>
+            <translation><!-- Servicing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Assets</masterLabel>
+            <translation><!-- Special Assets --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This optional field specifies the sequence in which this Requirement should be completed. --></help>
+        <label><!-- Order --></label>
+        <name>LLC_BI__Order__c</name>
+    </fields>
+    <fields>
+        <help><!-- This optional field is automatically populated with an ID of the object that is being acted upon. --></help>
+        <label><!-- Proxy Id --></label>
+        <name>LLC_BI__Proxy_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- This optional field is automatically populated with the object API name that is being acted upon. --></help>
+        <label><!-- Proxy Type --></label>
+        <name>LLC_BI__Proxy_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- This required field contains the current state of this Requirement. --></help>
+        <label><!-- Status --></label>
+        <name>LLC_BI__Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- This optional field contains the developer name of the Requirement Template on which this Requirement is based. --></help>
+        <label><!-- Template --></label>
+        <name>LLC_BI__Template__c</name>
+    </fields>
+    <fields>
+        <label><!-- lookupKey --></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+</CustomObjectTranslation>

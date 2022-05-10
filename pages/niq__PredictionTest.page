@@ -1,0 +1,65 @@
+<apex:page showHeader="false" sidebar="false" controller="niq.PredictionIntegrationController">
+    <apex:slds />
+    <apex:form >
+        <div class="nds-section">
+            <div class="nds-section__body">
+                <div class="slds-col--padded slds-size--1-of-3">
+                    <div class="slds-form-element">
+                        <label class="slds-form-element__label">Loan Name
+                        </label>
+                        <div class="slds-form-element__control">
+                            <apex:inputText styleClass="slds-input slds-scrollable--x" value="{!loanName}">
+                            </apex:inputText>
+                        </div>
+                    </div>
+                    <div class="slds-form-element">
+                        <label class="slds-form-element__label">Prediction LookupKey
+                        </label>
+                        <div class="slds-form-element__control">
+                            <apex:inputText styleClass="slds-input slds-scrollable--x" value="{!predictionLookup}">
+                            </apex:inputText>
+                        </div>
+                    </div>
+                    <div class="slds-form-element">
+                        <label class="slds-form-element__label">mappingKey
+                        </label>
+                        <div class="slds-form-element__control">
+                            <apex:inputText styleClass="slds-input slds-scrollable--x" value="{!mappingKey}">
+                            </apex:inputText>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slds-col--padded slds-size--1-of-1 slds-p-vertical--small">
+            <apex:outputPanel >
+                <div class="pull-right">
+                    <apex:commandButton action="{!loadData}" id="loadData" styleClass="slds-button slds-button--brand" value="Load Sample Data"
+                    />
+                    <apex:commandButton action="{!runPredictionTest}" id="runTestButton" styleClass="slds-button slds-button--brand" value="Run Test"
+                    />
+                </div>
+            </apex:outputPanel>
+        </div>
+        <div class="slds-col--padded slds-size--1-of-1 slds-p-vertical--small">
+            <div class="pull-right">
+                <div class="slds-form-element slds-text-heading_medium slds-text-title_bold slds-m-top_medium">
+                    <apex:outputText value="Input Parameters:" />
+                </div>
+                <apex:outputText value="{!inputParams}" />
+                <div class="slds-form-element slds-text-heading_medium slds-text-title_bold slds-m-top_medium">
+                    <apex:outputText value="Result:" />
+                </div>
+                <apex:outputText value="{!result}" />
+                <div class="slds-form-element slds-text-heading_medium slds-text-title_bold slds-m-top_medium">
+                    <apex:outputText value="JSON Prediction Result:" />
+                </div>
+                <apex:outputText value="{!jsonResult}" />
+                <div class="slds-form-element slds-text-heading_medium slds-text-title_bold slds-m-top_medium">
+                    <apex:outputText value="Error:" />
+                </div>
+                <apex:outputText value="{!error}" />
+            </div>
+        </div>
+    </apex:form>
+</apex:page>

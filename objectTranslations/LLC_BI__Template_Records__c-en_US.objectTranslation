@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Fees Template --></label>
+        <name>LLC_BI__Fees_Template</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Select the basis for percentage fees, such as loan amount, total interest, or another loan field. --></help>
+        <label><!-- Basis Source --></label>
+        <name>LLC_BI__Basis_Source__c</name>
+        <picklistValues>
+            <masterLabel>Loan Amount</masterLabel>
+            <translation><!-- Loan Amount --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>LLC_BI__Category__c</name>
+        <picklistValues>
+            <masterLabel>Fees Management</masterLabel>
+            <translation><!-- Fees Management --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Checkbox 1 --></label>
+        <name>LLC_BI__Checkbox_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox 2 --></label>
+        <name>LLC_BI__Checkbox_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox 3 --></label>
+        <name>LLC_BI__Checkbox_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox 4 --></label>
+        <name>LLC_BI__Checkbox_4__c</name>
+    </fields>
+    <fields>
+        <help><!-- Populate this picklist to specify the collection method for a fee. --></help>
+        <label><!-- Collection Method --></label>
+        <name>LLC_BI__Collection_Method__c</name>
+        <picklistValues>
+            <masterLabel>Cash</masterLabel>
+            <translation><!-- Cash --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financed</masterLabel>
+            <translation><!-- Financed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CounterCount --></label>
+        <name>LLC_BI__CounterCount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency Field 1 --></label>
+        <name>LLC_BI__Currency_Field_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>LLC_BI__End_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a unique name that identifies this fee template record. --></help>
+        <label><!-- Fee Template Identifier --></label>
+        <name>LLC_BI__Fee_Template_Identifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Active --></label>
+        <name>LLC_BI__Is_Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the percentage you want the system to use to calculate the fee based on the basis value. --></help>
+        <label><!-- Percentage --></label>
+        <name>LLC_BI__Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Picklist 1 --></label>
+        <name>LLC_BI__Picklist_1__c</name>
+        <picklistValues>
+            <masterLabel>Appraisal</masterLabel>
+            <translation><!-- Appraisal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attorney</masterLabel>
+            <translation><!-- Attorney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Report</masterLabel>
+            <translation><!-- Credit Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DMV</masterLabel>
+            <translation><!-- DMV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government Recording</masterLabel>
+            <translation><!-- Government Recording --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Origination</masterLabel>
+            <translation><!-- Loan Origination --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Settlement/Close</masterLabel>
+            <translation><!-- Settlement/Close --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State Tax Stamps</masterLabel>
+            <translation><!-- State Tax Stamps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Survey</masterLabel>
+            <translation><!-- Survey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Title Insurance</masterLabel>
+            <translation><!-- Title Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Title Search</masterLabel>
+            <translation><!-- Title Search --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Picklist 2 --></label>
+        <name>LLC_BI__Picklist_2__c</name>
+        <picklistValues>
+            <masterLabel>Borrower</masterLabel>
+            <translation><!-- Borrower --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lender</masterLabel>
+            <translation><!-- Lender --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seller</masterLabel>
+            <translation><!-- Seller --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Picklist 3 --></label>
+        <name>LLC_BI__Picklist_3__c</name>
+        <picklistValues>
+            <masterLabel>001</masterLabel>
+            <translation><!-- 001 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Picklist 4 --></label>
+        <name>LLC_BI__Picklist_4__c</name>
+        <picklistValues>
+            <masterLabel>Flat Amount</masterLabel>
+            <translation><!-- Flat Amount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percentage</masterLabel>
+            <translation><!-- Percentage --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select the record type of the fee, cost, or adjustment. --></help>
+        <label><!-- Record Type --></label>
+        <name>LLC_BI__Record_Type__c</name>
+        <picklistValues>
+            <masterLabel>Adjustments</masterLabel>
+            <translation><!-- Adjustments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Costs</masterLabel>
+            <translation><!-- Costs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fees</masterLabel>
+            <translation><!-- Fees --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Populate this optional field with screen section name to determine the fields displayed to a user for completion when adding fees to a loan. --></help>
+        <label><!-- Screen Section --></label>
+        <name>LLC_BI__Screen_Section__c</name>
+        <relationshipLabel><!-- Template Records --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>LLC_BI__Start_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the TRID disclosure category for the fee. --></help>
+        <label><!-- TRID Disclosure Category --></label>
+        <name>LLC_BI__TRID_Disclosure_Category__c</name>
+        <picklistValues>
+            <masterLabel>Initial Escrow Payment at Closing</masterLabel>
+            <translation><!-- Initial Escrow Payment at Closing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Origination Charges</masterLabel>
+            <translation><!-- Origination Charges --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prepaids</masterLabel>
+            <translation><!-- Prepaids --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services You Can Shop For</masterLabel>
+            <translation><!-- Services You Can Shop For --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services You Cannot Shop For</masterLabel>
+            <translation><!-- Services You Cannot Shop For --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxes and Other Government Fees</masterLabel>
+            <translation><!-- Taxes and Other Government Fees --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select the TRID tolerance category for the fee. --></help>
+        <label><!-- TRID Tolerances Category --></label>
+        <name>LLC_BI__TRID_Tolerances_Category__c</name>
+        <picklistValues>
+            <masterLabel>0% Tolerance</masterLabel>
+            <translation><!-- 0% Tolerance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10% Cumulative Tolerance</masterLabel>
+            <translation><!-- 10% Cumulative Tolerance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unlimited Tolerance</masterLabel>
+            <translation><!-- Unlimited Tolerance --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Text Field 1 --></label>
+        <name>LLC_BI__Text_Field_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Text Field 2 --></label>
+        <name>LLC_BI__Text_Field_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- lookupKey --></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <recordTypes>
+        <description><!-- Template for Fee Management --></description>
+        <label><!-- Fee Management Record Type --></label>
+        <name>LLC_BI__Fee_Management_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Starting Record Type to Select True Template --></description>
+        <label><!-- Starting Record Type --></label>
+        <name>LLC_BI__Starting_Record_Type</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Ensure values are entered for Basis Source and Percentage so the system can calculate the percentage calculation type. --></errorMessage>
+        <name>LLC_BI__Percentage_Fee_Required_Fields</name>
+    </validationRules>
+</CustomObjectTranslation>

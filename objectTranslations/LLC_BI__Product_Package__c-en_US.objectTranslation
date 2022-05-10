@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Credit Memo Standard Review Product Package --></label>
+        <name>Credit_Memo_Standard_Review_Product_Pack</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ConvertTo Display Fields --></label>
+        <name>LLC_BI__ConvertTo_Display_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Credit_Actions_New_Package_Details --></label>
+        <name>LLC_BI__Credit_Actions_New_Package_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product_Package_Compliance_Information --></label>
+        <name>LLC_BI__Product_Package_Compliance_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product_Package_Exposure_Information --></label>
+        <name>LLC_BI__Product_Package_Exposure_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Relationship Product Package Header --></label>
+        <name>LLC_BI__Relationship_Product_Package_Header</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ReviewDisplay --></label>
+        <name>LLC_BI__ReviewDisplay</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Credit Memo Standard Product Package --></label>
+        <name>LLC_BI__Standard_Product_Package_Credit_Memo</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Total Exposure Summary --></label>
+        <name>LLC_BI__Total_Exposure_Summary</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Credit Memo Standard Product Package --></label>
+        <name>Standard_Product_Package_Credit_Memo</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI-PP-Approval Section --></label>
+        <name>UI_PP_Approval_Section</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Relationship --></label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel><!-- Product Packages --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>LLC_BI__Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Not Submitted</masterLabel>
+            <translation><!-- Not Submitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready</masterLabel>
+            <translation><!-- Ready --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Booked Affiliated Exposure --></label>
+        <name>LLC_BI__Booked_Affiliated_Exposure__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is used to report Booked Direct Exposure to the Product Package. --></help>
+        <label><!-- Booked Direct Exposure --></label>
+        <name>LLC_BI__Booked_Direct_Exposure__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is used to report Booked Indirect Exposure to the Product Package. --></help>
+        <label><!-- Booked Indirect Exposure --></label>
+        <name>LLC_BI__Booked_Indirect_Exposure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Committed Affiliated Exposure --></label>
+        <name>LLC_BI__Committed_Affiliated_Exposure__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is used to report Committed Direct Exposure to the Product Package. --></help>
+        <label><!-- Committed Direct Exposure --></label>
+        <name>LLC_BI__Committed_Direct_Exposure__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is used to report Committed Indirect Exposure to the Product Package. --></help>
+        <label><!-- Committed Indirect Exposure --></label>
+        <name>LLC_BI__Committed_Indirect_Exposure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Memo --></label>
+        <name>LLC_BI__Credit_Memo__c</name>
+        <relationshipLabel><!-- Product Packages --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This field is used to determine the default landing page for this product package within the nCino User Interface. --></help>
+        <label><!-- Default App --></label>
+        <name>LLC_BI__Default_App__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Leases --></label>
+        <name>LLC_BI__Has_Leases__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Syndicated Loans --></label>
+        <name>LLC_BI__Has_Syndicated_Loans__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Exposure Calculation Date --></label>
+        <name>LLC_BI__Last_Exposure_Calc_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Review Date --></label>
+        <name>LLC_BI__Last_Review_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Loan Facilities --></label>
+        <name>LLC_BI__Loan_Facilities_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Money --></label>
+        <name>LLC_BI__New_Money__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Next Annual Review --></label>
+        <name>LLC_BI__Next_Annual_Review__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Review Date --></label>
+        <name>LLC_BI__Next_Review_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Outstanding --></label>
+        <name>LLC_BI__Outstanding__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Officer --></label>
+        <name>LLC_BI__Primary_Officer__c</name>
+        <relationshipLabel><!-- Product Packages (Primary Officer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Propagate Action --></label>
+        <name>LLC_BI__Propagate_Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proposed Affiliated Exposure --></label>
+        <name>LLC_BI__Proposed_Affiliated_Exposure__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is used to report Proposed Direct Exposure to the Product Package. --></help>
+        <label><!-- Proposed Direct Exposure --></label>
+        <name>LLC_BI__Proposed_Direct_Exposure__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is used to report Proposed Indirect Exposure to the Product Package. --></help>
+        <label><!-- Proposed Indirect Exposure --></label>
+        <name>LLC_BI__Proposed_Indirect_Exposure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Review Frequency --></label>
+        <name>LLC_BI__Review_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Annually</masterLabel>
+            <translation><!-- Annually --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every 2 Months</masterLabel>
+            <translation><!-- Every 2 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation><!-- Monthly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation><!-- Quarterly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-Annually</masterLabel>
+            <translation><!-- Semi-Annually --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Number of Reviewable Loan Facilities --></label>
+        <name>LLC_BI__Reviewable_Loan_Facilities_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk Rating --></label>
+        <name>LLC_BI__Risk_Rating__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Secondary Officer --></label>
+        <name>LLC_BI__Secondary_Officer__c</name>
+        <relationshipLabel><!-- Product Packages (Secondary Officer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Stage --></label>
+        <name>LLC_BI__Stage__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review</masterLabel>
+            <translation><!-- In Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Approval Step 1</masterLabel>
+            <translation><!-- Approval Step 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approval Step 2</masterLabel>
+            <translation><!-- Approval Step 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Declined</masterLabel>
+            <translation><!-- Declined --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hold</masterLabel>
+            <translation><!-- Hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review</masterLabel>
+            <translation><!-- In Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intermediately Approved</masterLabel>
+            <translation><!-- Intermediately Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intermediately Rejected</masterLabel>
+            <translation><!-- Intermediately Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost</masterLabel>
+            <translation><!-- Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recalled</masterLabel>
+            <translation><!-- Recalled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdrawn</masterLabel>
+            <translation><!-- Withdrawn --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Total Borrower Exposure</label>
+        <name>LLC_BI__TBE__c</name>
+    </fields>
+    <fields>
+        <label>Total Credit Exposure</label>
+        <name>LLC_BI__TCE__c</name>
+    </fields>
+    <fields>
+        <label>Total Obligor Exposure</label>
+        <name>LLC_BI__TOE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Affiliated Exposure --></label>
+        <name>LLC_BI__Total_Affiliated_Exposure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Allocated Syndication Amount --></label>
+        <name>LLC_BI__Total_Allocated_Syndication_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is used to report Total Direct Exposure to the Product Package. --></help>
+        <label><!-- Total Direct Exposure --></label>
+        <name>LLC_BI__Total_Direct_Exposure__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is used to report Total Indirect Exposure to the Product Package. --></help>
+        <label><!-- Total Indirect Exposure --></label>
+        <name>LLC_BI__Total_Indirect_Exposure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Loan Facilities Amount --></label>
+        <name>LLC_BI__Total_Loan_Facilities_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Loan Facilities Exposure --></label>
+        <name>LLC_BI__Total_Loan_Facilities_Exposure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Net New Funds --></label>
+        <name>LLC_BI__Total_Net_New_Funds__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Syndicated Facility Amount --></label>
+        <name>LLC_BI__Total_Syndicated_Facility_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unused --></label>
+        <name>LLC_BI__Unused__c</name>
+    </fields>
+    <fields>
+        <label><!-- lookupKey --></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1st Approver --></label>
+        <name>X1st_Approver__c</name>
+        <relationshipLabel><!-- Product Packages (1st Approver) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 2nd Approver --></label>
+        <name>X2nd_Approver__c</name>
+        <relationshipLabel><!-- Product Packages (2nd Approver) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- isTest --></label>
+        <name>isTest__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <webLinks>
+        <label><!-- Credit_Memo --></label>
+        <name>Credit_Memo</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Credit_Memo --></label>
+        <name>LLC_BI__Credit_Memo</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Actions --></label>
+        <name>LLC_BI__Mass_Actions</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Facility --></label>
+        <name>LLC_BI__New_Facility</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- renew_loan --></label>
+        <name>LLC_BI__renew_loan</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Description --></label>
+        <name>nFORMS__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable FLS --></label>
+        <name>nFORMS__Enable_FLS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enforce Masking --></label>
+        <name>nFORMS__Enforce_Masking__c</name>
+    </fields>
+    <fields>
+        <help><!-- The form template will only be available to objects that meet this filter criteria. --></help>
+        <label><!-- Filter --></label>
+        <name>nFORMS__Filter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Form Purpose --></label>
+        <name>nFORMS__Form_Purpose__c</name>
+        <picklistValues>
+            <masterLabel>General</masterLabel>
+            <translation><!-- General --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Is Active --></label>
+        <name>nFORMS__Is_Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Output Type --></label>
+        <name>nFORMS__Output_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Object --></label>
+        <name>nFORMS__Primary_Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- Save To Docman --></label>
+        <name>nFORMS__Save_To_Docman__c</name>
+    </fields>
+    <fields>
+        <label><!-- lookupKey --></label>
+        <name>nFORMS__lookupKey__c</name>
+    </fields>
+</CustomObjectTranslation>

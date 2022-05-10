@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- API Version --></label>
+        <name>niq__API_Version__c</name>
+    </fields>
+    <fields>
+        <label><!-- Creation Date --></label>
+        <name>niq__Creation_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insight --></label>
+        <name>niq__Insight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Model Name --></label>
+        <name>niq__Model_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Model Version --></label>
+        <name>niq__Model_Version__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prediction --></label>
+        <name>niq__Prediction__c</name>
+        <relationshipLabel><!-- Results --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Related Object Id --></label>
+        <name>niq__Related_Object_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Object Type --></label>
+        <name>niq__Related_Object_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Id --></label>
+        <name>niq__Request_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Time --></label>
+        <name>niq__Request_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Result Value --></label>
+        <name>niq__Result_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Result Value --></label>
+        <name>niq__Results__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Context --></label>
+        <name>niq__Source_Context__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>niq__Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

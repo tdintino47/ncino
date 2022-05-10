@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Select a category --></help>
+        <label><!-- Category --></label>
+        <name>niq__Category__c</name>
+        <picklistValues>
+            <masterLabel>Business</masterLabel>
+            <translation><!-- Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation><!-- Commercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer</masterLabel>
+            <translation><!-- Consumer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential Real Estate</masterLabel>
+            <translation><!-- Residential Real Estate --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select a collateral type --></help>
+        <label><!-- -D Collateral Type --></label>
+        <name>niq__Collateral_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the standardized product category. --></help>
+        <label><!-- nCino Product Category --></label>
+        <name>niq__Insights_Product_Category__c</name>
+        <picklistValues>
+            <masterLabel>Exclude</masterLabel>
+            <translation><!-- Exclude --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Revolving Line of Credit</masterLabel>
+            <translation><!-- Non-Revolving Line of Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revolving Line of Credit</masterLabel>
+            <translation><!-- Revolving Line of Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Term Loan</masterLabel>
+            <translation><!-- Term Loan --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Is Indirect --></label>
+        <name>niq__Is_Indirect__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select a lien position --></help>
+        <label><!-- Lien Position --></label>
+        <name>niq__Lien_Position__c</name>
+        <picklistValues>
+            <masterLabel>First</masterLabel>
+            <translation><!-- First --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Second</masterLabel>
+            <translation><!-- Second --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select a collateral type --></help>
+        <label><!-- -D Prediction Collateral Type --></label>
+        <name>niq__Prediction_Collateral_Type__c</name>
+        <picklistValues>
+            <masterLabel>Apartment</masterLabel>
+            <translation><!-- Apartment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash</masterLabel>
+            <translation><!-- Cash --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial Lot/Land</masterLabel>
+            <translation><!-- Commercial Lot/Land --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment</masterLabel>
+            <translation><!-- Equipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industrial</masterLabel>
+            <translation><!-- Industrial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Car</masterLabel>
+            <translation><!-- New Car --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office</masterLabel>
+            <translation><!-- Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Auto - RV, Boat, Etc.</masterLabel>
+            <translation><!-- Other Auto - RV, Boat, Etc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other CRE</masterLabel>
+            <translation><!-- Other CRE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential Condo</masterLabel>
+            <translation><!-- Residential Condo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential Lot/Land</masterLabel>
+            <translation><!-- Residential Lot/Land --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential Multi-Family</masterLabel>
+            <translation><!-- Residential Multi-Family --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential Single-Family</masterLabel>
+            <translation><!-- Residential Single-Family --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail</masterLabel>
+            <translation><!-- Retail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Used Car</masterLabel>
+            <translation><!-- Used Car --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select a product --></help>
+        <label><!-- Product --></label>
+        <name>niq__Product__c</name>
+        <relationshipLabel><!-- Product --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select a subcategory --></help>
+        <label><!-- Subcategory --></label>
+        <name>niq__Subcategory__c</name>
+        <picklistValues>
+            <masterLabel>Apartment</masterLabel>
+            <translation><!-- Apartment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Credit Card</masterLabel>
+            <translation><!-- Business Credit Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business New Auto</masterLabel>
+            <translation><!-- Business New Auto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Secured</masterLabel>
+            <translation><!-- Business Secured --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Unsecured</masterLabel>
+            <translation><!-- Business Unsecured --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Used Auto</masterLabel>
+            <translation><!-- Business Used Auto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Workout</masterLabel>
+            <translation><!-- Business Workout --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial Dev.</masterLabel>
+            <translation><!-- Commercial Dev. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial Lot</masterLabel>
+            <translation><!-- Commercial Lot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial Workout</masterLabel>
+            <translation><!-- Commercial Workout --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Credit Card</masterLabel>
+            <translation><!-- Consumer Credit Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer New Auto</masterLabel>
+            <translation><!-- Consumer New Auto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Used Auto</masterLabel>
+            <translation><!-- Consumer Used Auto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Workout</masterLabel>
+            <translation><!-- Consumer Workout --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Mortgage</masterLabel>
+            <translation><!-- First Mortgage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industrial</masterLabel>
+            <translation><!-- Industrial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Land &amp; Farm</masterLabel>
+            <translation><!-- Land &amp; Farm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office</masterLabel>
+            <translation><!-- Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Business</masterLabel>
+            <translation><!-- Other Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other CRE</masterLabel>
+            <translation><!-- Other CRE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Residential</masterLabel>
+            <translation><!-- Other Residential --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Secured Consumer</masterLabel>
+            <translation><!-- Other Secured Consumer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Unsecured Consumer</masterLabel>
+            <translation><!-- Other Unsecured Consumer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential Construction</masterLabel>
+            <translation><!-- Residential Construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential Dev</masterLabel>
+            <translation><!-- Residential Dev --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential Line of Credit</masterLabel>
+            <translation><!-- Residential Line of Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential Lot</masterLabel>
+            <translation><!-- Residential Lot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential Workout</masterLabel>
+            <translation><!-- Residential Workout --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail</masterLabel>
+            <translation><!-- Retail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBA</masterLabel>
+            <translation><!-- SBA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Second Mortgage</masterLabel>
+            <translation><!-- Second Mortgage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Student Loans</masterLabel>
+            <translation><!-- Student Loans --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- lookupKey --></label>
+        <name>niq__lookupKey__c</name>
+    </fields>
+</CustomObjectTranslation>

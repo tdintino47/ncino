@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Credit Memo Standard Loan --></label>
+        <name>Credit_Memo_Standard_Loan</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Credit Memo Standard Product Package --></label>
+        <name>Credit_Memo_Standard_Product_Package</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Credit Memo Standard Review Product Package --></label>
+        <name>Credit_Memo_Standard_Review_Product_Pack</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Credit memo Standard Review Account --></label>
+        <name>Credit_memo_Standard_Review_Account</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Bulk Pledge Details --></label>
+        <name>LLC_BI__Bulk_Pledge_Asset_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Bulk Pledge Details --></label>
+        <name>LLC_BI__Bulk_Pledge_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Collateral Modal Details --></label>
+        <name>LLC_BI__Collateral_Modal_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Credit Memo Standard Product Package --></label>
+        <name>LLC_BI__Credit_Memo_Standard_Product_Package</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LC Collateral Summary --></label>
+        <name>LLC_BI__LC_Collateral_Summary_SS</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Manage Loan Collateral --></label>
+        <name>LLC_BI__Manage_Loan_Collateral</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Pledge Details --></label>
+        <name>LLC_BI__Pledge_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Prod Pkg UI Related Pledge Schedule --></label>
+        <name>LLC_BI__Prod_Pkg_UI_Related_Pledge_Schedule</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Asset Record Schedule --></label>
+        <name>LLC_BI__UI_Asset_Record_Schedule</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Collateral Record Schedule --></label>
+        <name>LLC_BI__UI_Collateral_Record_Schedule</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Related Collateral Pledge Schedule --></label>
+        <name>LLC_BI__UI_Related_Collateral_Pledge_Schedule</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Pledge Collateral Override --></label>
+        <name>Pledge_Collateral_Override</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI - Collateral Pledged --></label>
+        <name>UI_Collateral_Pledged</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Liens --></label>
+        <name>UI_Liens</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Loan Collateral Pledged --></label>
+        <name>UI_Loan_Collateral_Pledged</name>
+    </fieldSets>
+    <fields>
+        <help><!-- This field determines if the pledge is active and is automatically set via apex. --></help>
+        <label><!-- Active --></label>
+        <name>LLC_BI__Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- The overridden advance rate. --></help>
+        <label><!-- Advance Rate Override --></label>
+        <name>LLC_BI__Advance_Rate_Override__c</name>
+    </fields>
+    <fields>
+        <help><!-- The percentage of the value of collateral that a lender uses to determine the amount of a loan. --></help>
+        <label><!-- Advance Rate --></label>
+        <name>LLC_BI__Advance_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- The dollar amount of Collateral that is being pledged against the loan. --></help>
+        <label><!-- Amount Pledged --></label>
+        <name>LLC_BI__Amount_Pledged__c</name>
+    </fields>
+    <fields>
+        <help><!-- The user must check this box if they are attempting to pledge more than the current lendable value of a piece of collateral to a loan. --></help>
+        <label><!-- Authorize Pledge Amount --></label>
+        <name>LLC_BI__Authorize__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address --></label>
+        <name>LLC_BI__Collateral_Full_Address_PE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Collateral Address --></label>
+        <name>LLC_BI__Collateral_Full_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Collateral Type --></label>
+        <name>LLC_BI__Collateral_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is a System Generated field from the Value field on the Collateral object. Do not modify. --></help>
+        <label><!-- Collateral Value --></label>
+        <name>LLC_BI__Collateral_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Collateral --></label>
+        <name>LLC_BI__Collateral__c</name>
+        <relationshipLabel><!-- Loans --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Current Lendable Value of the collateral based on the Advance Rate. --></help>
+        <label><!-- Current Lendable Value --></label>
+        <name>LLC_BI__Current_Lendable_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date the loan has been paid out and the piece of Collateral is no longer pledged. --></help>
+        <label><!-- End Date --></label>
+        <name>LLC_BI__End_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- The value of the first lien position. This field is populated by the system. --></help>
+        <label><!-- First Lien Position Value --></label>
+        <name>LLC_BI__First_Lien_Position_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- System-populated field to indicate if collateral is included in count rollup summary. --></help>
+        <label><!-- Is Collateral Count Rollup Eligible --></label>
+        <name>LLC_BI__Is_Collateral_Count_Rollup_Eligible__c</name>
+    </fields>
+    <fields>
+        <help><!-- System-populated field to indicate if collateral is included in value rollup summary. --></help>
+        <label><!-- Is Collateral Value Rollup Eligible --></label>
+        <name>LLC_BI__Is_Collateral_Value_Rollup_Eligible__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is populated via apex to exclude this pledge from calculations. --></help>
+        <label><!-- Is Excluded --></label>
+        <name>LLC_BI__Is_Excluded__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is automatically populated via apex to indicate that this collateral is a leased asset. --></help>
+        <label><!-- Is Leased Asset --></label>
+        <name>LLC_BI__Is_Leased_Asset__c</name>
+    </fields>
+    <fields>
+        <help><!-- Is this the primary collateral on the loan. --></help>
+        <label><!-- Primary --></label>
+        <name>LLC_BI__Is_Primary__c</name>
+    </fields>
+    <fields>
+        <help><!-- The lien position that will be taken on Collateral. --></help>
+        <label><!-- Lien Position --></label>
+        <name>LLC_BI__Lien_Position__c</name>
+        <picklistValues>
+            <masterLabel>1st</masterLabel>
+            <translation><!-- 1st --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2nd</masterLabel>
+            <translation><!-- 2nd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3rd</masterLabel>
+            <translation><!-- 3rd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The aggregate object that connects Collateral to a Loan --></help>
+        <label><!-- Loan Collateral Aggregate --></label>
+        <name>LLC_BI__Loan_Collateral_Aggregate__c</name>
+        <relationshipLabel><!-- Collateral Pledged --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The Loan that the collateral is related to. --></help>
+        <label><!-- Loan --></label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel><!-- Collateral Pledged --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- LookupKey --></label>
+        <name>LLC_BI__LookupKey__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Lendable Value present on the collateral at the time the loan is booked. --></help>
+        <label><!-- Original Lendable Value --></label>
+        <name>LLC_BI__Original_Lendable_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- Displays the original amount of the loan associated to this piece of collateral. --></help>
+        <label><!-- Original Loan Amount --></label>
+        <name>LLC_BI__Original_Loan_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- The value of the other lien positions. This value is populated by the system. --></help>
+        <label><!-- Other Lien Position Value --></label>
+        <name>LLC_BI__Other_Lien_Position_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- The reason for overriding the Advance Rate. This is required if the Advance Rate has been overridden. --></help>
+        <label><!-- Override Reason --></label>
+        <name>LLC_BI__Override_Reason__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is automatically computed. Its value represents this collateral&apos;s (the parent)  total number of child collateral objects (the children) directly pledged to the same loan as this parent collateral. --></help>
+        <label><!-- Pledged Rollup Count --></label>
+        <name>LLC_BI__Pledged_Rollup_Count__c</name>
+    </fields>
+    <fields>
+        <help><!-- Manually select the collateral pledge status as either Active (currently being used) or Inactive (no longer being used). --></help>
+        <label><!-- Pledged Status --></label>
+        <name>LLC_BI__Pledged_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The value of the second lien position. This field is populated by the system. --></help>
+        <label><!-- Second Lien Position Value --></label>
+        <name>LLC_BI__Second_Lien_Position_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date the collateral is pledged against a loan. --></help>
+        <label><!-- Start Date --></label>
+        <name>LLC_BI__Start_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- The value of the third lien position. This field is populated by the system. --></help>
+        <label><!-- Third Lien Position Value --></label>
+        <name>LLC_BI__Third_Lien_Position_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is automatically computed. Its value represents the total &apos;lendable&apos; value of all collateral (the children of this collateral) directly pledged to the same loan as this (the parent) piece of collateral. --></help>
+        <label><!-- Total Pledged Rollup Lendable Value --></label>
+        <name>LLC_BI__Total_Pledged_Rollup_Lendable_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is automatically computed. Its value represents the total &apos;value&apos; of all collateral (the children of this collateral) directly pledged to the same loan as this (the parent) piece of collateral. --></help>
+        <label><!-- Total Pledged Rollup Value --></label>
+        <name>LLC_BI__Total_Pledged_Rollup_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- The sum of all prior liens. --></help>
+        <label><!-- Total Prior Lien Amount --></label>
+        <name>LLC_BI__Total_Prior_Lien_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Superior Lien Amount --></label>
+        <name>LLC_BI__Total_Superior_Lien_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is a System Generated field that ensures uniqueness of Loan_Collateral2__c records. --></help>
+        <label><!-- Unique Id --></label>
+        <name>LLC_BI__Unique_Id__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- There are no relationships related to the collateral who have pledging authority. --></errorMessage>
+        <name>LLC_BI__Account_Must_Have_Authority</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must specify a reason for overriding the Advance Rate. --></errorMessage>
+        <name>LLC_BI__Advance_Rate_Override</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You are trying to pledge more than the current lendable value of this collateral. You must check the Authorize Pledge Amount checkbox to continue. --></errorMessage>
+        <name>LLC_BI__Pledge_More_Than_Lendable_Value</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Add_Collateral --></label>
+        <name>LLC_BI__Add_Collateral</name>
+    </webLinks>
+</CustomObjectTranslation>

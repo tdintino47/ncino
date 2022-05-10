@@ -1,0 +1,176 @@
+<apex:page id="AWSDataCommProvider"
+  controller="nFORCE.AWSDataOAuthController"
+  action="{!saveAuthCode}">
+  <apex:slds />
+  <div class="nds-section">
+    <apex:outputPanel id="ErrorPanel" styleClass="nds-notify_container slds-size--1-of-1" rendered="{!lmoUnauthorized}">
+      <div id="toast-administer" class="slds-notify_container slds-notify--toast slds-theme_error slds-size--1-of-1" role="alert">
+        <span class="slds-icon_container slds-icon-utility-error slds-m-right_small slds-no-flex slds-align-top" title="Description of icon when needed">
+          <svg class="slds-icon slds-icon_small" aria-hidden="true">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, '/assets/icons/utility-sprite/svg/symbols.svg#error')}"></use>
+          </svg>
+        </span>
+        <span class="slds-assistive-text">{!$Label.nforce__error}</span>
+        <div class="slds-notify__content">
+          <apex:messages />
+        </div>
+      </div>
+    </apex:outputPanel>
+    <apex:form id="DetailsForm">
+      <div class="nds-section__header">
+        <apex:outputPanel styleClass="slds-align_absolute-center" rendered="{!hasSuccess}">
+          <div id="toast-success" class="slds-notify slds-notify--toast slds-is-relative slds-theme_success success-toast" role="status">
+            <span class="slds-assistive-text">{!$Label.Success}</span>
+            <span class="slds-icon_container slds-icon-utility-success slds-m-right_small slds-no-flex" title="Description of icon when needed">
+              <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, '/assets/icons/utility-sprite/svg/symbols.svg#success')}"></use>
+              </svg>
+            </span>
+            <div class="slds-notify__content">
+              <div class="slds-text-heading_small"><apex:messages /></div>
+            </div>
+            <div class="slds-notify__close">
+              <a href="javascript:void(0);" class="slds-button slds-button_icon slds-button_icon-inverse" title="Close" onclick="toggleToast('toast-success')">
+                <svg class="slds-button__icon slds-button__icon_large" aria-hidden="true">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, '/assets/icons/utility-sprite/svg/symbols.svg#close')}"></use>
+                </svg>
+                <span class="slds-assistive-text">{!$Label.nforce__close}</span>
+              </a>
+            </div>
+          </div>
+        </apex:outputPanel>
+        <apex:outputPanel styleClass="slds-align_absolute-center" rendered="{!hasErrors}">
+          <div id="toast-failure" class="slds-notify slds-notify--toast slds-is-relative slds-theme_error failure-toast" role="status">
+            <span class="slds-assistive-text">{!$Label.Error}</span>
+            <span class="slds-icon_container slds-icon-utility-error slds-m-right_small slds-no-flex" title="Description of icon when needed">
+              <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, '/assets/icons/utility-sprite/svg/symbols.svg#error')}"></use>
+              </svg>
+            </span>
+            <div class="slds-notify__content">
+              <div class="slds-text-heading_small"><apex:messages /></div>
+            </div>
+            <div class="slds-notify__close">
+              <a href="javascript:void(0);" class="slds-button slds-button_icon slds-button_icon-inverse" title="Close" onclick="toggleToast('toast-failure')">
+                <svg class="slds-button__icon slds-button__icon_large" aria-hidden="true">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, '/assets/icons/utility-sprite/svg/symbols.svg#close')}"></use>
+                </svg>
+                <span class="slds-assistive-text">{!$Label.nforce__close}</span>
+              </a>
+            </div>
+          </div>
+        </apex:outputPanel>
+        <div class="slds-form--stacked slds-grid slds-wrap">
+          <div class="slds-size--1-of-1">
+            <div class="slds-text-heading--small">{!$Label.nforce__data_manangement_authentication_details}</div>
+            <label class="slds-form-element__label">{!$Label.nforce__data_manangement_authentication_details_summary}</label>
+          </div>
+        </div>
+        
+      </div>
+      <div class="nds-section__body">
+        <div class="slds-form--stacked slds-grid slds-wrap">
+          <div class="slds-col--padded slds-size--1-of-1">
+            <div class="slds-form-element slds-p-vertical--small">
+              <label class="slds-form-element__label">{!$Label.nforce__data_manangement_oauth2_consumer_key}</label>
+              <div class="slds-form-element__control">
+                <apex:inputText styleClass="slds-input slds-scrollable--x"
+                  value="{!consumerKey.nFORCE__Value__c}"
+                  disabled="{!lmoUnauthorized}">
+                  <apex:actionsupport event="onchange"
+                    action="{!enableSave}"
+                    rerender="PageActions,SummaryPanel"/>
+                  <apex:actionsupport event="onkeyup"
+                    action="{!enableSave}"
+                    rerender="PageActions,SummaryPanel"/>
+                </apex:inputText>
+              </div>
+            </div>
+          </div>
+          <div class="slds-col--padded slds-size--1-of-1">
+            <div class="slds-form-element slds-p-vertical--small">
+              <label class="slds-form-element__label">{!$Label.nforce__data_manangement_oauth2_consumer_secret}</label>
+              <div class="slds-form-element__control">
+                <apex:inputText styleClass="slds-input slds-scrollable--x"
+                  value="{!consumerSecret}"
+                  disabled="{!lmoUnauthorized}">
+                  <apex:actionsupport event="onchange"
+                    action="{!enableSave}"
+                    rerender="PageActions,SummaryPanel"/>
+                  <apex:actionsupport event="onkeyup"
+                    action="{!enableSave}"
+                    rerender="PageActions,SummaryPanel"/>
+                </apex:inputText>
+              </div>
+            </div>
+          </div>
+          <div class="slds-col--padded slds-size--1-of-1">
+            <div class="slds-form-element slds-p-vertical--small">
+              <label class="slds-form-element__label">{!$Label.nforce__data_manangement_oauth2_redirect_url}</label>
+              <div class="slds-form-element__control">
+                <apex:outputField styleClass="slds-textarea"
+                  value="{!redirectURL.nFORCE__Value__c}">
+                </apex:outputField>
+              </div>
+            </div>
+          </div>
+          <div class="slds-col--padded slds-size--1-of-1">
+            <div class="slds-form-element slds-p-vertical--small">
+              <label class="slds-form-element__label">{!$Label.nforce__data_manangement_status}</label>
+              <div class="slds-form-element__control">
+                <apex:outputText styleClass="slds-text-body--regular"
+                  value="{!$Label.nforce__data_manangement_authorization_status_authorized}"
+                  rendered="{!isAuthorized}"></apex:outputText>
+                <apex:outputText styleClass="slds-text-body--regular"
+                  value="{!$Label.nforce__data_manangement_authorization_status_unauthorized}"
+                  rendered="{!!isAuthorized}"></apex:outputText>
+              </div>
+            </div>
+          </div>
+          <div class="slds-col--padded slds-size--1-of-1 slds-p-vertical--small">
+            <apex:outputPanel id="PageActions">
+              <div class="slds-float_left slds-p-vertical--small">
+                <apex:commandButton styleClass="slds-button slds-button--brand slds-m-right--small"
+                   value="Create Connected App"
+                   action="{!createConnectedApp}"
+                   disabled="{!lmoUnauthorized}"/>
+              </div>
+              <div class="slds-float_right slds-p-vertical--small">
+                <label class="slds-form-element__label">{!$Label.nforce__data_manangement_authorization_last_authorized}: {!lastAuthorized}</label>
+                <apex:commandButton styleClass="slds-button slds-button--neutral slds-m-right--small"
+                  value="{!$Label.nforce__cancel}"
+                  disabled="{!!dirty}"
+                  rendered="{!dirty}"
+                  rerender="PageActions,DetailsForm,ErrorPanel"
+                  action="{!cancelSave}"/>
+                <apex:commandButton styleClass="slds-button slds-button--brand slds-m-right--small"
+                  value="{!$Label.nforce__save}"
+                  disabled="{!!dirty}"
+                  rendered="{!dirty}"
+                  rerender="PageActions,SummaryPanel,ErrorPanel"
+                  action="{!saveDetails}"/>
+                <apex:commandButton styleClass="slds-button slds-button--brand"
+                  value="{!$Label.nforce__data_manangement_authorization_button_authorize}"
+                  rendered="{!!dirty}"
+                  disabled="{!!canAuthorize||dirty}"
+                  rerender="PageActions,SummaryPanel,ErrorPanel"
+                  action="{!retrieveAuthCode}"/>
+              </div>
+            </apex:outputPanel>
+          </div>
+        </div>
+      </div>
+    </apex:form>
+  </div>
+  <script>
+    function toggleToast(id) {
+      let notificationToast = document.getElementById(id);
+      if (notificationToast.style.display === 'none') {
+        notificationToast.style.display = 'block';
+      } else {
+        notificationToast.style.display = 'none';
+      }
+      return false;
+    }
+  </script>
+</apex:page>

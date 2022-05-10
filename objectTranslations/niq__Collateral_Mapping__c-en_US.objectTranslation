@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Select a custom collateral type to map to a collateral type from the prediction. --></help>
+        <label><!-- Custom Collateral Type --></label>
+        <name>niq__Custom_Collateral_Type__c</name>
+        <relationshipLabel><!-- Collateral Mappings --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select a collateral type from the prediction to map to a custom collateral type. --></help>
+        <label><!-- Prediction Collateral Type --></label>
+        <name>niq__Prediction_Collateral_Type__c</name>
+        <picklistValues>
+            <masterLabel>Apartment</masterLabel>
+            <translation><!-- Apartment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash</masterLabel>
+            <translation><!-- Cash --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial Lot/Land</masterLabel>
+            <translation><!-- Commercial Lot/Land --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment</masterLabel>
+            <translation><!-- Equipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industrial</masterLabel>
+            <translation><!-- Industrial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Car</masterLabel>
+            <translation><!-- New Car --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office</masterLabel>
+            <translation><!-- Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Auto - RV, Boat, Etc.</masterLabel>
+            <translation><!-- Other Auto - RV, Boat, Etc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other CRE</masterLabel>
+            <translation><!-- Other CRE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential Condo</masterLabel>
+            <translation><!-- Residential Condo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential Lot/Land</masterLabel>
+            <translation><!-- Residential Lot/Land --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential Multi-Family</masterLabel>
+            <translation><!-- Residential Multi-Family --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential Single-Family</masterLabel>
+            <translation><!-- Residential Single-Family --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail</masterLabel>
+            <translation><!-- Retail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Used Car</masterLabel>
+            <translation><!-- Used Car --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- lookupKey --></label>
+        <name>niq__lookupKey__c</name>
+    </fields>
+</CustomObjectTranslation>

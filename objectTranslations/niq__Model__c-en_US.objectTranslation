@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Date Activated --></label>
+        <name>niq__Active_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prediction --></label>
+        <name>niq__Prediction__c</name>
+        <relationshipLabel><!-- Models --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>niq__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs Mapping</masterLabel>
+            <translation><!-- Needs Mapping --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- lookupKey --></label>
+        <name>niq__lookupKey__c</name>
+    </fields>
+</CustomObjectTranslation>

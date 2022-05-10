@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Context Object Type --></label>
+        <name>niq__Context_Object_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Model --></label>
+        <name>niq__Model__c</name>
+        <relationshipLabel><!-- nCino Script Templates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- lookupKey --></label>
+        <name>niq__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- nCino Script Template --></label>
+        <name>niq__nCino_Script_Template__c</name>
+    </fields>
+</CustomObjectTranslation>

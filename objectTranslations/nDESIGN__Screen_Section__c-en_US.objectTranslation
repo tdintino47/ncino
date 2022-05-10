@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Forces a page break after the section when printing. --></help>
+        <label><!-- Break Page After --></label>
+        <name>nDESIGN__Break_Page_After__c</name>
+    </fields>
+    <fields>
+        <help><!-- Forces a page break before the section when printing. --></help>
+        <label><!-- Break Page Before --></label>
+        <name>nDESIGN__Break_Page_Before__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Editable --></label>
+        <name>nDESIGN__Default_Editable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Rendered --></label>
+        <name>nDESIGN__Default_Rendered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disable Print --></label>
+        <name>nDESIGN__Disable_Print__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use Increments of 10 for Non Headless Sections and Increments of 1 for Headless Sections. 
+Example. Loan Detail DO:10 Loan Detail Narrative DO:11 --></help>
+        <label><!-- Display Order --></label>
+        <name>nDESIGN__Display_Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Display Toggle Effect --></label>
+        <name>nDESIGN__Display_Toggle_Effect__c</name>
+        <picklistValues>
+            <masterLabel>fade</masterLabel>
+            <translation><!-- fade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>slide</masterLabel>
+            <translation><!-- slide --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Display Toggle Header --></label>
+        <name>nDESIGN__Display_Toggle_Header__c</name>
+    </fields>
+    <fields>
+        <label><!-- Display Toggle Link --></label>
+        <name>nDESIGN__Display_Toggle_Link__c</name>
+    </fields>
+    <fields>
+        <help><!-- If set then the section will be rendered with no header and it will seem as if the section is part of the prior section. If used display order is Incremented as 1 instead of 10 --></help>
+        <label><!-- Headless --></label>
+        <name>nDESIGN__Headless__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inactive --></label>
+        <name>nDESIGN__Inactive__c</name>
+    </fields>
+    <fields>
+        <help><!-- Instructions will be visible on HTML View only will not show on Print or PDF view. Does render for headless sections --></help>
+        <label><!-- Instructions --></label>
+        <name>nDESIGN__Instructions_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- Deprecated to Instructions_Text__c --></help>
+        <label><!-- -D Instructions --></label>
+        <name>nDESIGN__Instructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Editable --></label>
+        <name>nDESIGN__Is_Editable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Layout --></label>
+        <name>nDESIGN__Layout__c</name>
+        <relationshipLabel><!-- Screen Sections --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Rendered View --></label>
+        <name>nDESIGN__Rendered_View__c</name>
+    </fields>
+    <fields>
+        <label><!-- Screen View --></label>
+        <name>nDESIGN__Screen_View__c</name>
+        <relationshipLabel><!-- Screen Sections --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Screen --></label>
+        <name>nDESIGN__Screen__c</name>
+        <relationshipLabel><!-- Screen Sections --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- SObject is used for Widget usage expect for Approval history or when specified. MappedSobjectHierarchy is used for when you are accessing data from another object other than the Main object. Exp Get Fee Data from Loan. All other Types use MappedSobject. --></help>
+        <label><!-- Section Resource --></label>
+        <name>nDESIGN__Section_Resource__c</name>
+        <picklistValues>
+            <masterLabel>MappedSObjectHierarchyScreenResource</masterLabel>
+            <translation><!-- MappedSObjectHierarchyScreenResource --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MappedSObjectScreenResource</masterLabel>
+            <translation><!-- MappedSObjectScreenResource --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SObjectScreenResource</masterLabel>
+            <translation><!-- SObjectScreenResource --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Widget --></label>
+        <name>nDESIGN__Widget__c</name>
+        <relationshipLabel><!-- Screen Sections --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- lookupKey --></label>
+        <name>nDESIGN__lookupKey__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select The Object the Credit Memo is From. --></help>
+        <label><!-- sObject Type --></label>
+        <name>nDESIGN__sObject_Type__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation><!-- Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Loan__c</masterLabel>
+            <translation><!-- LLC_BI__Loan__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Product_Package__c</masterLabel>
+            <translation><!-- LLC_BI__Product_Package__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Review__c</masterLabel>
+            <translation><!-- LLC_BI__Review__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Treasury_Service__c</masterLabel>
+            <translation><!-- LLC_BI__Treasury_Service__c --></translation>
+        </picklistValues>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Please select a section resource. --></errorMessage>
+        <name>nDESIGN__Mandatory</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Build_Layout --></label>
+        <name>nDESIGN__Build_Layout</name>
+    </webLinks>
+</CustomObjectTranslation>
