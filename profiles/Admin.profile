@@ -58877,6 +58877,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>LLC_BI__Spread_Statement_Period__c.test__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>LLC_BI__Spread_Statement_Record_Group__c.LLC_BI__Accumulate__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -68074,6 +68079,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>InterestTag-Interest Tag Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LLC_BI__Spread_Statement_Period__c-LLC_BI__Spread Statement Period Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>LegalEntity-Legal Entity Layout</layout>
