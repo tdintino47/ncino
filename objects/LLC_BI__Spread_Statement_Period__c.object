@@ -724,7 +724,7 @@
             <isRequired>false</isRequired>
         </displayedFields>
         <displayedFields>
-            <field>test__c</field>
+            <field>PFS_Date__c</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
         </displayedFields>
@@ -799,7 +799,7 @@
             <isRequired>false</isRequired>
         </displayedFields>
         <displayedFields>
-            <field>test__c</field>
+            <field>PFS_Date__c</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
         </displayedFields>
@@ -919,7 +919,7 @@
             <isRequired>false</isRequired>
         </displayedFields>
         <displayedFields>
-            <field>test__c</field>
+            <field>PFS_Date__c</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
         </displayedFields>
@@ -1478,6 +1478,14 @@
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>PFS_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>PFS Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
     </fields>
     <fields>
         <fullName>test__c</fullName>
