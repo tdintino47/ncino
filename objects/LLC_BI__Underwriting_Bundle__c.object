@@ -431,16 +431,12 @@
         <fullName>LLC_BI__All</fullName>
         <columns>NAME</columns>
         <columns>LLC_BI__Description__c</columns>
-        <columns>LLC_BI__lookupKey__c</columns>
+        <columns>LLC_BI__Selected_Scale__c</columns>
         <columns>LLC_BI__Is_Template__c</columns>
         <columns>LLC_BI__Is_Disabled__c</columns>
-        <columns>LLC_BI__Is_Consolidation__c</columns>
+        <columns>LLC_BI__Relationship__c</columns>
+        <columns>LLC_BI__Collateral__c</columns>
         <filterScope>Everything</filterScope>
-        <filters>
-            <field>LLC_BI__Is_Disabled__c</field>
-            <operation>equals</operation>
-            <value>0</value>
-        </filters>
         <label>All</label>
     </listViews>
     <listViews>

@@ -272,12 +272,7 @@
         <columns>LLC_BI__Template_Object_Field_Name__c</columns>
         <columns>LLC_BI__Template_Object_Field_Value__c</columns>
         <columns>LLC_BI__Template_Object_Type__c</columns>
-        <columns>CREATED_DATE</columns>
         <filterScope>Everything</filterScope>
-        <filters>
-            <field>LLC_BI__Risk_Rating_Review__c</field>
-            <operation>equals</operation>
-        </filters>
         <label>All</label>
     </listViews>
     <listViews>
