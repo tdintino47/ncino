@@ -10044,11 +10044,11 @@ Object: Account</description>
         <customTabListAdditionalFields>ACCOUNT.INDUSTRY</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.TYPE</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.PHONE1</customTabListAdditionalFields>
-        <excludedStandardButtons>DiscoveryGetAccountsAction</excludedStandardButtons>
-        <excludedStandardButtons>CreateCallList</excludedStandardButtons>
-        <excludedStandardButtons>DataDotComGetAccountsMultiAddAction</excludedStandardButtons>
         <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
         <excludedStandardButtons>Forward</excludedStandardButtons>
+        <excludedStandardButtons>DataDotComGetAccountsMultiAddAction</excludedStandardButtons>
+        <excludedStandardButtons>DiscoveryGetAccountsAction</excludedStandardButtons>
+        <excludedStandardButtons>CreateCallList</excludedStandardButtons>
         <listViewButtons>LLC_BI__create_new_customer</listViewButtons>
         <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>ACCOUNT.ADDRESS1_CITY</lookupDialogsAdditionalFields>

@@ -15,6 +15,7 @@
     <enableCalculationUsingParentPolicyOnly>false</enableCalculationUsingParentPolicyOnly>
     <enableClaimMgmt>false</enableClaimMgmt>
     <enableCompliantDataSharingForAccount>false</enableCompliantDataSharingForAccount>
+    <enableCompliantDataSharingForCustomObjects>false</enableCompliantDataSharingForCustomObjects>
     <enableCompliantDataSharingForOpportunity>false</enableCompliantDataSharingForOpportunity>
     <enableDealManagement>false</enableDealManagement>
     <enableFSCInsuranceReport>false</enableFSCInsuranceReport>
@@ -29,5 +30,6 @@
     <enableRecordRollup>false</enableRecordRollup>
     <loanApplicantAddressAutoCreation>false</loanApplicantAddressAutoCreation>
     <loanApplicantAutoCreation>false</loanApplicantAutoCreation>
+    <rlaEditIfAccHasEdit>false</rlaEditIfAccHasEdit>
     <transformRBLtoDPE>false</transformRBLtoDPE>
 </IndustriesSettings>
